@@ -1,0 +1,2931 @@
+/* line 1, ../scss/base/_base.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../scss/base/_base.scss */
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'museosans_500';
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "museosans_100";
+  src: url("../fonts/museosans_100-webfont.ttf");
+}
+
+@font-face {
+  font-family: "museosans_300";
+  src: url("../fonts/museosans_300-webfont.ttf");
+}
+
+@font-face {
+  font-family: "museosans_500";
+  src: url("../fonts/museosans_500-webfont.ttf");
+}
+
+@font-face {
+  font-family: "museosans_700";
+  src: url("../fonts/museosans_700-webfont.ttf");
+}
+
+@font-face {
+  font-family: "museosans_900";
+  src: url("../fonts/museosans_900-webfont.ttf");
+}
+
+/* line 1, ../scss/layout/_header.scss */
+#top1 {
+  display: none;
+}
+
+/* line 5, ../scss/layout/_header.scss */
+#nav1 {
+  display: none;
+}
+
+/* line 9, ../scss/layout/_header.scss */
+#btn1 {
+  display: none;
+}
+
+/* line 13, ../scss/layout/_header.scss */
+#top {
+  background: #fff;
+  color: black;
+  font-family: 'museosans_300';
+  font-size: 14px;
+  width: 87.8%;
+  list-style: none;
+  text-decoration: none;
+  float: right;
+  padding-right: 10%;
+  padding-left: 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* line 28, ../scss/layout/_header.scss */
+#top ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  list-style-type: none;
+  float: right;
+}
+
+/* line 37, ../scss/layout/_header.scss */
+#top ul li {
+  display: inline-block;
+}
+
+/* line 41, ../scss/layout/_header.scss */
+#top ul li:last-child a {
+  margin-right: 0;
+}
+
+/* line 45, ../scss/layout/_header.scss */
+#top ul li a {
+  color: #081f3f;
+  padding-top: 5px;
+  padding-bottom: 0;
+  padding-right: 5px;
+  text-decoration: none;
+  margin-right: 25px;
+}
+
+/* line 54, ../scss/layout/_header.scss */
+#top ul li a:hover {
+  color: #0050ff;
+}
+
+/* line 58, ../scss/layout/_header.scss */
+#bottom {
+  background: #fff;
+  color: black;
+  font-size: 14px;
+  width: 100%;
+  float: right;
+  text-align: center;
+  margin: 0;
+}
+
+/* line 68, ../scss/layout/_header.scss */
+#nav {
+  float: left;
+  font-size: 18px;
+  font-family: 'museosans_700';
+}
+
+/* line 74, ../scss/layout/_header.scss */
+#nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 80, ../scss/layout/_header.scss */
+#nav ul li {
+  float: left;
+}
+
+/* line 84, ../scss/layout/_header.scss */
+#nav ul li a {
+  display: block;
+  line-height: 40px;
+  padding: 20px;
+  color: #081f3f;
+  text-decoration: none;
+  border-bottom: 4px solid #FFF;
+}
+
+/* line 93, ../scss/layout/_header.scss */
+#nav ul li a:visited {
+  color: black;
+}
+
+/* line 97, ../scss/layout/_header.scss */
+#nav ul li a:hover {
+  background: #fff;
+  color: black;
+  border-bottom: 4px solid #0050ff;
+}
+
+/* line 103, ../scss/layout/_header.scss */
+#nav ul li a:active {
+  background: #EEE;
+  border-bottom: 4px solid #CCC;
+}
+
+/* line 108, ../scss/layout/_header.scss */
+#logo {
+  display: block;
+  float: left;
+  margin: auto;
+  padding: 5px;
+  width: 30%;
+}
+
+/* line 116, ../scss/layout/_header.scss */
+#head-img {
+  clear: both;
+  width: 100%;
+  margin: 0;
+}
+
+@media screen and (max-width: 1235px) {
+  /* line 123, ../scss/layout/_header.scss */
+  #logo {
+    width: 25%;
+  }
+
+  /* line 126, ../scss/layout/_header.scss */
+  header #family-icon h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+
+  /* line 130, ../scss/layout/_header.scss */
+  header #family-icon h2 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  /* line 136, ../scss/layout/_header.scss */
+  #logo {
+    width: 25%;
+  }
+
+  /* line 139, ../scss/layout/_header.scss */
+  header #family-icon img {
+    margin-top: -30px;
+  }
+
+  /* line 142, ../scss/layout/_header.scss */
+  header #family-icon h1 {
+    font-size: 45px;
+    margin-bottom: 25px;
+  }
+
+  /* line 146, ../scss/layout/_header.scss */
+  #family-icon img {
+    height: 70px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  /* line 152, ../scss/layout/_header.scss */
+  #logo {
+    width: 25%;
+  }
+
+  /* line 155, ../scss/layout/_header.scss */
+  header #family-icon h1 {
+    font-size: 43px;
+    margin-bottom: 15px;
+  }
+
+  /* line 159, ../scss/layout/_header.scss */
+  header #family-icon h2 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1025px) {
+  /* line 165, ../scss/layout/_header.scss */
+  header #family-icon h1 {
+    font-size: 40px;
+  }
+
+  /* line 168, ../scss/layout/_header.scss */
+  header #family-icon h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  /* line 172, ../scss/layout/_header.scss */
+  #family-icon img {
+    height: 60px;
+  }
+}
+@media screen and (max-width: 961px) {
+  /* line 178, ../scss/layout/_header.scss */
+  header #family-icon img {
+    margin-top: -30px;
+  }
+
+  /* line 181, ../scss/layout/_header.scss */
+  header #family-icon h1 {
+    font-size: 37px;
+  }
+
+  /* line 184, ../scss/layout/_header.scss */
+  header #family-icon h2 {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+
+  /* line 188, ../scss/layout/_header.scss */
+  #nav {
+    display: none;
+  }
+
+  /* line 191, ../scss/layout/_header.scss */
+  #btn {
+    display: none;
+  }
+
+  /* line 194, ../scss/layout/_header.scss */
+  #top {
+    display: none;
+  }
+
+  /* line 197, ../scss/layout/_header.scss */
+  #mobile_header {
+    background-color: transparent;
+    padding: 10px;
+    text-decoration: none;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 207, ../scss/layout/_header.scss */
+  #burger {
+    float: right;
+    margin-right: 20px;
+    border: 1px solid #004ffc;
+    border-radius: 3px 3px 3px 3px;
+    cursor: pointer;
+    display: block;
+    height: 24px;
+    padding: 3px 4px 3px;
+    position: relative;
+    width: 25px;
+    background: #4569b2;
+    filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#4569b2', endColorstr='#4062a5', GradientType=0)";
+  }
+
+  /* line 221, ../scss/layout/_header.scss */
+  #burger div {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 2px 2px 2px 2px;
+    height: 2px;
+    margin-top: 3px;
+    width: 90%;
+  }
+
+  /* line 229, ../scss/layout/_header.scss */
+  #mobile_nav {
+    opacity: 0;
+    right: 0px;
+    top: 0px;
+    position: fixed;
+    z-index: 0;
+    width: 70%;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #081f3f;
+  }
+
+  /* line 244, ../scss/layout/_header.scss */
+  #mobile_nav ul {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+  }
+
+  /* line 249, ../scss/layout/_header.scss */
+  #contentLayer {
+    display: none;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 30%;
+    z-index: 5;
+  }
+
+  /* line 260, ../scss/layout/_header.scss */
+  body {
+    position: relative;
+  }
+
+  /* line 263, ../scss/layout/_header.scss */
+  #top1 {
+    background: #081f3f;
+    color: #ffffff;
+    font-family: 'museosans_300';
+    font-size: 25px;
+    list-style: none;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  /* line 274, ../scss/layout/_header.scss */
+  #top1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  /* line 280, ../scss/layout/_header.scss */
+  #top1 ul li {
+    display: block;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+
+  /* line 286, ../scss/layout/_header.scss */
+  #top1 ul li a {
+    color: #ffffff;
+    padding-bottom: 0;
+    text-decoration: none;
+  }
+
+  /* line 291, ../scss/layout/_header.scss */
+  #top1 ul li a:hover {
+    color: #4f5c74;
+  }
+
+  /* line 294, ../scss/layout/_header.scss */
+  #nav1 {
+    font-size: 12px;
+    font-family: 'museosans_700';
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+
+  /* line 303, ../scss/layout/_header.scss */
+  #nav1 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  /* line 308, ../scss/layout/_header.scss */
+  #nav1 ul li {
+    float: left;
+    font-size: 18px;
+    display: inline-block;
+    padding-left: 10px;
+  }
+
+  /* line 314, ../scss/layout/_header.scss */
+  #nav1 ul li a {
+    display: inline-block;
+    line-height: 45px;
+    color: #4f5c74;
+    text-decoration: none;
+  }
+
+  /* line 320, ../scss/layout/_header.scss */
+  #nav1 ul li a:visited {
+    color: #4f5c74;
+  }
+
+  /* line 323, ../scss/layout/_header.scss */
+  #nav1 ul li a:hover {
+    background: #081f3f;
+    color: #ffffff;
+    border-bottom: 2px solid #0050ff;
+  }
+
+  /* line 328, ../scss/layout/_header.scss */
+  #nav1 ul li a:active {
+    background: #081f3f;
+    border-bottom: 2px solid #0050ff;
+  }
+
+  /* line 332, ../scss/layout/_header.scss */
+  .btnLogSign {
+    background-color: #0050ff;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    border: 1px solid #0050ff;
+    padding: 12px 20px 12px 20px;
+    border-radius: 30px 0 0 30px;
+    margin-right: 2px;
+    font-family: 'museosans_700';
+  }
+
+  /* line 343, ../scss/layout/_header.scss */
+  #log1 {
+    border-radius: 30px 0 0 30px;
+  }
+
+  /* line 346, ../scss/layout/_header.scss */
+  #sign1 {
+    border-radius: 0 30px 30px 0;
+  }
+
+  /* line 349, ../scss/layout/_header.scss */
+  #btn1 {
+    font-size: 0;
+    display: block !important;
+  }
+
+  /* line 354, ../scss/layout/_header.scss */
+  #log1:hover,
+  #sign2:hover {
+    background-color: #0040cc;
+    cursor: pointer;
+  }
+
+  /* line 358, ../scss/layout/_header.scss */
+  #family-icon {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 2% !important;
+    color: #ffffff;
+    font-family: 'Museo Sans';
+    display: block !important;
+  }
+
+  /* line 367, ../scss/layout/_header.scss */
+  #family-icon h1 {
+    font-size: 60px;
+    font-family: 'museosans_100';
+    font-weight: 100;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+
+  /* line 374, ../scss/layout/_header.scss */
+  #family-icon h2 {
+    font-size: 22px;
+    font-family: 'museosans_300';
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 525px;
+    font-weight: 300;
+  }
+}
+@media screen and (max-width: 870px) {
+  /* line 385, ../scss/layout/_header.scss */
+  header #family-icon {
+    top: 27%;
+  }
+
+  /* line 388, ../scss/layout/_header.scss */
+  header #family-icon img {
+    margin-top: -50px;
+  }
+}
+@media screen and (max-width: 770px) {
+  /* line 394, ../scss/layout/_header.scss */
+  header #family-icon h1 {
+    font-size: 26px;
+    margin-top: 8px;
+  }
+
+  /* line 398, ../scss/layout/_header.scss */
+  header #family-icon h2 {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+
+  /* line 402, ../scss/layout/_header.scss */
+  header #family-icon img {
+    margin-top: -50px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 408, ../scss/layout/_header.scss */
+  header #family-icon {
+    position: relative;
+    color: #081f3f;
+  }
+
+  /* line 412, ../scss/layout/_header.scss */
+  header #family-icon h1 {
+    font-size: 20px;
+  }
+}
+/* line 1, ../scss/layout/_footer.scss */
+footer {
+  clear: both;
+}
+
+/* line 5, ../scss/layout/_footer.scss */
+#bottom_nav #second-nav ul {
+  font-size: 0;
+  display: flex;
+}
+
+/* line 10, ../scss/layout/_footer.scss */
+#bottom_nav #second-nav li {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #004ffb;
+}
+
+/* line 19, ../scss/layout/_footer.scss */
+#bottom_nav #second-nav li a {
+  float: none;
+  display: block;
+  font-family: 'museosans_100';
+  font-weight: 100;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+/* line 29, ../scss/layout/_footer.scss */
+#bottom_nav #second-nav li:hover {
+  background-color: #0040cc;
+}
+
+/* line 33, ../scss/layout/_footer.scss */
+#bottom_nav span {
+  font-size: 30px;
+}
+
+/* line 37, ../scss/layout/_footer.scss */
+.home-next {
+  border-left: 2px solid #0037af;
+}
+
+/* line 41, ../scss/layout/_footer.scss */
+#middle-footer {
+  width: 100%;
+  padding-top: 50px;
+  background: #ffffff;
+}
+
+/* line 47, ../scss/layout/_footer.scss */
+.middle_center {
+  width: 18%;
+  vertical-align: top;
+  text-align: right;
+  display: inline-block;
+}
+
+/* line 54, ../scss/layout/_footer.scss */
+#logo_footer {
+  float: left;
+}
+
+/* line 58, ../scss/layout/_footer.scss */
+#middle-footer .middle_center ul {
+  list-style-type: none;
+  width: 120px;
+  vertical-align: top;
+}
+
+/* line 64, ../scss/layout/_footer.scss */
+#middle-footer .middle_center li {
+  text-align: left;
+  float: left;
+  display: block;
+  width: 100%;
+  font-family: 'museosans_500';
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  line-height: 23px;
+}
+
+/* line 76, ../scss/layout/_footer.scss */
+#middle-footer .middle_center ul a {
+  display: block;
+  text-decoration: none;
+  float: left;
+  color: #2267ff;
+}
+
+/* line 83, ../scss/layout/_footer.scss */
+.footer-grey {
+  color: #838f9f;
+  font-family: 'museosans_500';
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+
+/* line 91, ../scss/layout/_footer.scss */
+.footer-blue {
+  list-style-type: square;
+  list-style-position: outside;
+}
+
+/* line 96, ../scss/layout/_footer.scss */
+#middle-footer .middle_center .footer-blue a {
+  color: #081f3f;
+  display: list-item;
+  list-style-type: circle;
+  list-style-position: outside;
+}
+
+/* line 103, ../scss/layout/_footer.scss */
+#middle-footer-wrapper {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 109, ../scss/layout/_footer.scss */
+#bottom_footer {
+  width: 100%;
+  height: 80px;
+  margin-top: 70px;
+  background: #f7f7f7;
+  display: inline-block;
+}
+
+/* line 117, ../scss/layout/_footer.scss */
+#footer-end {
+  width: 85%;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+/* line 123, ../scss/layout/_footer.scss */
+#terms_privacy {
+  float: left;
+}
+
+/* line 127, ../scss/layout/_footer.scss */
+#terms_privacy span {
+  color: #8a94a2;
+}
+
+/* line 131, ../scss/layout/_footer.scss */
+#terms_privacy li {
+  float: left;
+  list-style-type: none;
+}
+
+/* line 136, ../scss/layout/_footer.scss */
+#terms_privacy a {
+  font-family: 'Myriad Pro', 'Segoe UI', 'sans-serif';
+  font-size: 14px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+/* line 143, ../scss/layout/_footer.scss */
+#social_icon {
+  float: right;
+}
+
+/* line 147, ../scss/layout/_footer.scss */
+#social_icon li {
+  margin-right: 10px;
+  list-style-type: none;
+  display: inline-block;
+}
+
+@media screen and (max-width: 960px) {
+  /* line 154, ../scss/layout/_footer.scss */
+  #middle-footer-wrapper #column1 {
+    display: none;
+  }
+
+  /* line 157, ../scss/layout/_footer.scss */
+  #logo_footer {
+    display: none;
+  }
+
+  /* line 160, ../scss/layout/_footer.scss */
+  .middle_center {
+    width: 30%;
+  }
+
+  /* line 163, ../scss/layout/_footer.scss */
+  #column4 #my_home_btn {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  /* line 169, ../scss/layout/_footer.scss */
+  #bottom_nav #second-nav li {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  /* line 173, ../scss/layout/_footer.scss */
+  #bottom_nav #second-nav li a {
+    font-size: 26px;
+  }
+
+  /* line 176, ../scss/layout/_footer.scss */
+  #middle-footer .middle_center li {
+    font-size: 12px;
+    line-height: 22px;
+  }
+}
+@media screen and (max-width: 800px) {
+  /* line 183, ../scss/layout/_footer.scss */
+  #my_home_btn {
+    display: none;
+  }
+
+  /* line 186, ../scss/layout/_footer.scss */
+  #logo_footer {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 192, ../scss/layout/_footer.scss */
+  #second-nav ul li:nth-child(2) {
+    display: none !important;
+  }
+
+  /* line 195, ../scss/layout/_footer.scss */
+  #bottom_nav #second-nav ul li {
+    width: 50%;
+  }
+
+  /* line 198, ../scss/layout/_footer.scss */
+  #column4 {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* line 203, ../scss/layout/_footer.scss */
+  .img_float {
+    display: inline-block;
+  }
+
+  /* line 206, ../scss/layout/_footer.scss */
+  .middle_center {
+    width: 45%;
+  }
+
+  /* line 209, ../scss/layout/_footer.scss */
+  #bottom_nav #second-nav li a {
+    font-size: 16px;
+  }
+
+  /* line 212, ../scss/layout/_footer.scss */
+  .footer-grey {
+    padding-bottom: 0;
+  }
+
+  /* line 215, ../scss/layout/_footer.scss */
+  .img_float img {
+    width: 100%;
+  }
+
+  /* line 218, ../scss/layout/_footer.scss */
+  .img_float {
+    width: 48%;
+  }
+
+  /* line 221, ../scss/layout/_footer.scss */
+  #middle-footer .middle_center .footer-blue a {
+    list-style-type: none;
+    color: #0050ff;
+  }
+
+  /* line 225, ../scss/layout/_footer.scss */
+  #middle-footer {
+    color: #f8f8f8;
+  }
+
+  /* line 228, ../scss/layout/_footer.scss */
+  #terms_privacy a {
+    font-size: 11px;
+  }
+
+  /* line 231, ../scss/layout/_footer.scss */
+  #terms_privacy span {
+    font-size: 11px;
+  }
+}
+/* line 1, ../scss/modules/_buttons.scss */
+.btnLogSign {
+  background-color: #0050ff;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px solid #0050ff;
+  padding: 12px 20px 12px 20px;
+  border-radius: 30px 0 0 30px;
+  margin-right: 2px;
+  font-family: 'museosans_700';
+}
+
+/* line 13, ../scss/modules/_buttons.scss */
+#log {
+  border-radius: 30px 0 0 30px;
+}
+
+/* line 17, ../scss/modules/_buttons.scss */
+#sign {
+  border-radius: 0 30px 30px 0;
+}
+
+/* line 21, ../scss/modules/_buttons.scss */
+#btn {
+  float: right;
+  padding-right: 10%;
+  margin-top: 10px;
+  font-size: 0;
+}
+
+/* line 29, ../scss/modules/_buttons.scss */
+#log:hover,
+#sign:hover {
+  background-color: #0040cc;
+  cursor: pointer;
+}
+
+/* line 34, ../scss/modules/_buttons.scss */
+#sing_up_now {
+  font-family: 'museosans_700';
+}
+
+/* line 38, ../scss/modules/_buttons.scss */
+.btn_bottom {
+  padding: 50px;
+}
+
+/* line 43, ../scss/modules/_buttons.scss */
+#sing_up_now,
+#lorem_ipsum_notes {
+  background-color: #ffffff;
+  color: #0050ff;
+  text-decoration: none;
+  font-family: 'museosans_700';
+  font-size: 16px;
+  font-weight: 700;
+  border: 2px solid #004ffb;
+  padding: 12px 20px 12px 20px;
+  border-radius: 30px;
+  margin: 60px 0;
+}
+
+/* line 57, ../scss/modules/_buttons.scss */
+#sing_up_now:hover,
+#lorem_ipsum_notes:hover {
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+/* line 63, ../scss/modules/_buttons.scss */
+#lorem_ipsum_notes {
+  margin-top: 50px;
+}
+
+/* line 67, ../scss/modules/_buttons.scss */
+#read_users_story {
+  font-family: 'museosans_700';
+  background-color: #ffffff;
+  color: #0050ff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  border: 1px solid #0050ff;
+  padding: 12px 20px 12px 20px;
+  border-radius: 30px;
+}
+
+/* line 79, ../scss/modules/_buttons.scss */
+#read_users_story:hover {
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid #0050ff;
+  padding: 12px 20px 12px 20px;
+}
+
+/* line 86, ../scss/modules/_buttons.scss */
+.arrow {
+  margin-left: 10px;
+  font-size: 26px;
+  vertical-align: middle;
+}
+
+/* line 92, ../scss/modules/_buttons.scss */
+.panel .arrow {
+  float: right;
+  margin-right: 20px;
+  margin-top: 3px;
+}
+
+/* line 98, ../scss/modules/_buttons.scss */
+.read_more {
+  background-color: #ffffff;
+  color: #2dc27a;
+  text-decoration: none;
+  font-family: 'museosans_700';
+  font-size: 16px;
+  font-weight: 700;
+  border: 1px solid #2dc27a;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  padding: 10px 20px 10px 20px;
+}
+
+/* line 111, ../scss/modules/_buttons.scss */
+.panel .read_more {
+  display: block;
+  height: 40px;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+/* line 118, ../scss/modules/_buttons.scss */
+.read-more-text {
+  display: inline-block;
+  margin-top: 10px;
+  float: left;
+  margin-left: 20px;
+}
+
+/* line 125, ../scss/modules/_buttons.scss */
+.read_more:hover {
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid #2dc27a;
+  padding: 12px 20px 12px 20px;
+}
+
+/* line 132, ../scss/modules/_buttons.scss */
+.panel .read_more:hover {
+  padding: 0;
+}
+
+/* line 136, ../scss/modules/_buttons.scss */
+.panel .btn_bottom {
+  padding-top: 0;
+}
+
+/* line 141, ../scss/modules/_buttons.scss */
+.post .read_more,
+#send_message {
+  background-color: #ffffff;
+  color: #0050ff;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'museosans_700';
+  font-weight: 700;
+  border: 1px solid #0050ff;
+  padding: 10px 20px 10px 20px;
+  border-radius: 30px;
+  margin-right: 1px;
+  margin-bottom: 10px;
+}
+
+/* line 156, ../scss/modules/_buttons.scss */
+.post .read_more:hover,
+#send_message:hover {
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid black;
+  padding: 10px 20px 10px 20px;
+}
+
+/* line 163, ../scss/modules/_buttons.scss */
+#send_message {
+  margin-left: 150px;
+  margin-bottom: 20px;
+}
+
+/* line 168, ../scss/modules/_buttons.scss */
+#my_home_btn {
+  background: url("../images/girl-img.png") no-repeat;
+  background-color: #0050ff;
+  background-position: left !important;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'museosans_500';
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #0050ff;
+  padding: 12px 20px 12px 20px;
+  border-radius: 30px;
+  margin-right: 1px;
+  margin-bottom: 70px;
+}
+
+/* line 184, ../scss/modules/_buttons.scss */
+#my_home_btn:hover {
+  cursor: pointer;
+  background-color: #0040cc;
+}
+
+/* checked mark aspect */
+/* line 191, ../scss/modules/_buttons.scss */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  opacity: 0;
+}
+
+/* line 195, ../scss/modules/_buttons.scss */
+.checkBox {
+  position: relative;
+}
+
+/* line 199, ../scss/modules/_buttons.scss */
+.checkBox input {
+  position: absolute;
+  left: 0;
+  width: 35px;
+  z-index: 9999;
+  height: 35px;
+  margin-top: 0 !important;
+}
+
+/* line 209, ../scss/modules/_buttons.scss */
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 3.95em;
+  cursor: pointer;
+}
+
+/* line 216, ../scss/modules/_buttons.scss */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  content: '✔';
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.95em;
+  line-height: 0.8;
+  color: #081f3f;
+  transition: all .2s;
+  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+/* line 232, ../scss/modules/_buttons.scss */
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+  width: 35px;
+  height: 35px;
+}
+
+/* line 239, ../scss/modules/_buttons.scss */
+[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+  border: 2px solid #081f3f;
+}
+
+/* line 246, ../scss/modules/_buttons.scss */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1.25em;
+  height: 1.25em;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  width: 35px;
+  height: 35px;
+}
+
+/* line 1, ../scss/modules/_blocks.scss */
+#features {
+  padding: 30px 0;
+  background-color: #f9f9f9;
+  margin: 0 0 30px 0;
+  width: 100%;
+  margin: 0;
+}
+
+/* line 9, ../scss/modules/_blocks.scss */
+#features p {
+  color: #081f3f;
+  line-height: 30px;
+  font-family: 'museosans_300';
+  font-weight: 300;
+  font-size: 18px;
+}
+
+/* line 17, ../scss/modules/_blocks.scss */
+#features .icons {
+  display: inline-block;
+  width: 22%;
+  padding-right: 20px;
+}
+
+/* line 23, ../scss/modules/_blocks.scss */
+#tabs {
+  width: 100%;
+  background-color: #fbfbfb;
+  margin-top: 50px;
+}
+
+/* line 29, ../scss/modules/_blocks.scss */
+#user_story {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 0;
+  background-color: #004ffb;
+  padding: 0;
+}
+
+/* line 37, ../scss/modules/_blocks.scss */
+.color_block {
+  display: inline-block;
+}
+
+/* line 41, ../scss/modules/_blocks.scss */
+#color_block1 {
+  background: #004ffb;
+  color: #ffffff;
+  vertical-align: top;
+  display: inline-block;
+  font-size: 0px;
+  width: 50%;
+}
+
+/* line 50, ../scss/modules/_blocks.scss */
+* #color_block1 h2 {
+  font-family: "museosans_300";
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 169px;
+  margin-bottom: 25px;
+}
+
+/* line 58, ../scss/modules/_blocks.scss */
+#color_block1 p {
+  font-family: 'museosans_100';
+  font-size: 50px;
+  font-weight: 100;
+  margin-bottom: 60px;
+}
+
+/* line 65, ../scss/modules/_blocks.scss */
+#color_block2 {
+  margin: 0;
+  display: inline-block;
+  width: 50%;
+  padding: 0;
+}
+
+/* line 72, ../scss/modules/_blocks.scss */
+#color_block2 img {
+  width: 100%;
+}
+
+/* line 76, ../scss/modules/_blocks.scss */
+#notes {
+  font-size: 50px;
+  font-family: 'museosans_100';
+  font-weight: 100;
+  margin: 50px 0;
+  color: #081f3f;
+}
+
+/* line 84, ../scss/modules/_blocks.scss */
+#accordion-container {
+  display: inline-block;
+  width: 80%;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: 'museosans_300';
+  background: #ffffff;
+  padding: 0;
+  border: 1px solid #cccccc;
+}
+
+/* line 96, ../scss/modules/_blocks.scss */
+.accordion-header {
+  font-size: 18px;
+  font-family: 'museosans_300';
+  font-weight: 700;
+  background: #ffffff;
+  margin: 0;
+  padding: 14px 30px;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+  color: #004ffb;
+  border-radius: 1px;
+}
+
+/* line 109, ../scss/modules/_blocks.scss */
+.accordion-content {
+  display: none;
+  background: #ffffff;
+  width: 100% !important;
+}
+
+/* line 115, ../scss/modules/_blocks.scss */
+.inactive-header:hover {
+  background: #f7faff;
+  background-repeat: no-repeat;
+  background-position: right 50%;
+}
+
+/* line 122, ../scss/modules/_blocks.scss */
+.accordion-closed:after {
+  float: right;
+  content: '\2039';
+  display: inline-block;
+  transform: rotate(90deg);
+  /* IE 9 */
+  -ms-transform: rotate(90deg);
+  /* Chrome, Safari, Opera */
+  -webkit-transform: rotate(90deg);
+  /* Firefox */
+  -moz-transform: rotate(90deg);
+  font-size: 30px;
+}
+
+/* line 137, ../scss/modules/_blocks.scss */
+.accordion-open:after {
+  float: right;
+  content: "\2039";
+  display: inline-block;
+  transform: rotate(-90deg);
+  /* IE 9 */
+  -ms-transform: rotate(-90deg);
+  /* Chrome, Safari, Opera */
+  -webkit-transform: rotate(-90deg);
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+  font-size: 30px;
+}
+
+/* line 151, ../scss/modules/_blocks.scss */
+.accordion-container .accordion-content {
+  border: none;
+}
+
+/* line 155, ../scss/modules/_blocks.scss */
+.accordion-content p {
+  text-align: justify;
+  padding: 30px 40px 30px 80px;
+  color: #6e7583;
+}
+
+/* line 161, ../scss/modules/_blocks.scss */
+.accordion-content li {
+  text-align: justify;
+  list-style-type: circle;
+  list-style-position: inside;
+  padding-left: 80px;
+  color: #081f3f;
+}
+
+/* line 169, ../scss/modules/_blocks.scss */
+#promo_panel {
+  background-color: #f9f9f9;
+  font-size: 18px;
+  width: 100%;
+  margin: 0;
+}
+
+/* line 176, ../scss/modules/_blocks.scss */
+.mobile_panel {
+  display: none !important;
+}
+
+/* line 180, ../scss/modules/_blocks.scss */
+.promo_panel_panel {
+  display: inline-block;
+  width: 100%;
+}
+
+/* line 185, ../scss/modules/_blocks.scss */
+.panel {
+  width: 270px;
+  display: inline-block;
+}
+
+/* line 190, ../scss/modules/_blocks.scss */
+.side-panel img {
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+/* line 195, ../scss/modules/_blocks.scss */
+.panel-green {
+  position: relative;
+  background: #2dc27a;
+  width: 420px;
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+/* line 203, ../scss/modules/_blocks.scss */
+.panel-green p {
+  display: inline-block;
+  width: 266px;
+  line-height: 30px;
+}
+
+/* line 209, ../scss/modules/_blocks.scss */
+#scope {
+  margin-top: 70px;
+}
+
+/* line 213, ../scss/modules/_blocks.scss */
+.scope_title {
+  margin: 42px 50px 50px 50px;
+  color: #ffffff;
+}
+
+/* line 218, ../scss/modules/_blocks.scss */
+.scope_title p {
+  font-size: 18px;
+  font-family: 'museosans_300';
+  font-weight: 300;
+  margin: 0;
+}
+
+/* line 225, ../scss/modules/_blocks.scss */
+.scope_title h2 {
+  font-family: 'museosans_100';
+  font-size: 30px;
+  font-weight: 100;
+}
+
+@media screen and (max-width: 1400px) {
+  /* line 232, ../scss/modules/_blocks.scss */
+  #user_story p {
+    font-size: 40px;
+  }
+
+  /* line 235, ../scss/modules/_blocks.scss */
+  #user_story h2 {
+    margin-top: 120px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  /* line 241, ../scss/modules/_blocks.scss */
+  #user_story p {
+    font-size: 30px;
+  }
+
+  /* line 244, ../scss/modules/_blocks.scss */
+  #user_story h2 {
+    margin-top: 80px;
+  }
+}
+@media screen and (max-width: 1025px) {
+  /* line 250, ../scss/modules/_blocks.scss */
+  #features p {
+    font-size: 14px;
+  }
+
+  /* line 253, ../scss/modules/_blocks.scss */
+  #features .icons {
+    width: 20%;
+  }
+
+  /* line 256, ../scss/modules/_blocks.scss */
+  .promo_panel_panel {
+    display: flex;
+  }
+
+  /* line 259, ../scss/modules/_blocks.scss */
+  .promo_panel_panel .side-panel img {
+    width: 100%;
+  }
+
+  /* line 262, ../scss/modules/_blocks.scss */
+  .panel-green {
+    width: 40%;
+  }
+
+  /* line 265, ../scss/modules/_blocks.scss */
+  .panel-green .scope_title {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 900px) {
+  /* line 272, ../scss/modules/_blocks.scss */
+  #user_story p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+
+  /* line 276, ../scss/modules/_blocks.scss */
+  #user_story h2 {
+    font-size: 18px;
+  }
+
+  /* line 279, ../scss/modules/_blocks.scss */
+  #read_users_story {
+    font-size: 14px;
+  }
+
+  /* line 282, ../scss/modules/_blocks.scss */
+  .panel-green .scope_title {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  /* line 286, ../scss/modules/_blocks.scss */
+  .panel-green .scope_title p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  /* line 290, ../scss/modules/_blocks.scss */
+  .panel-green .scope_title h2 {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 820px) {
+  /* line 296, ../scss/modules/_blocks.scss */
+  #user_story h2 {
+    margin-top: 60px;
+    font-size: 16px;
+  }
+
+  /* line 300, ../scss/modules/_blocks.scss */
+  #user_story p {
+    font-size: 21px;
+    margin-bottom: 40px;
+  }
+
+  /* line 304, ../scss/modules/_blocks.scss */
+  #read_users_story {
+    font-size: 12px;
+    padding: 10px 18px 10px 18px;
+  }
+}
+@media screen and (max-width: 750px) {
+  /* line 311, ../scss/modules/_blocks.scss */
+  .promo_panel_panel {
+    width: 120%;
+    margin-left: -55px;
+  }
+}
+@media screen and (max-width: 720px) {
+  /* line 318, ../scss/modules/_blocks.scss */
+  #user_story h2 {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 700px) {
+  /* line 324, ../scss/modules/_blocks.scss */
+  .accordion-content p {
+    padding-left: 50px;
+  }
+
+  /* line 327, ../scss/modules/_blocks.scss */
+  .accordion-content li {
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+
+  /* line 331, ../scss/modules/_blocks.scss */
+  .promo_panel_panel {
+    margin-left: -55px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 337, ../scss/modules/_blocks.scss */
+  #features .icons {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 80px;
+  }
+
+  /* line 343, ../scss/modules/_blocks.scss */
+  #features .icons img {
+    float: left;
+  }
+
+  /* line 346, ../scss/modules/_blocks.scss */
+  #notes {
+    font-size: 22px;
+  }
+
+  /* line 349, ../scss/modules/_blocks.scss */
+  .accordion-header {
+    font-size: 13px;
+    text-align: left;
+  }
+
+  /* line 353, ../scss/modules/_blocks.scss */
+  .accordion-content p {
+    font-size: 13px;
+    text-align: center;
+    padding-left: 20px;
+  }
+
+  /* line 358, ../scss/modules/_blocks.scss */
+  .accordion-content li {
+    font-size: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* line 363, ../scss/modules/_blocks.scss */
+  #color_block1 {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+
+  /* line 367, ../scss/modules/_blocks.scss */
+  #color_block2 {
+    display: block;
+    width: 100%;
+  }
+
+  /* line 371, ../scss/modules/_blocks.scss */
+  .mobile_panel {
+    display: block !important;
+  }
+
+  /* line 374, ../scss/modules/_blocks.scss */
+  .promo_panel_panel {
+    display: none;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  /* line 379, ../scss/modules/_blocks.scss */
+  .mobile_panel .panel-green {
+    margin-left: 0;
+    width: 90%;
+    margin-bottom: 25px;
+  }
+
+  /* line 384, ../scss/modules/_blocks.scss */
+  .mobile_panel .panel {
+    width: 44%;
+  }
+
+  /* line 387, ../scss/modules/_blocks.scss */
+  .mobile_panel .side-panel img {
+    width: 98%;
+  }
+}
+@media screen and (max-width: 460px) {
+  /* line 393, ../scss/modules/_blocks.scss */
+  #accordion-container {
+    width: 100%;
+  }
+
+  /* line 396, ../scss/modules/_blocks.scss */
+  .accordion-header {
+    padding: 18px 30px;
+  }
+}
+/* line 1, ../scss/modules/_components.scss */
+#main {
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  background: white;
+  color: black;
+  float: left;
+  overflow: hidden;
+}
+
+/* line 11, ../scss/modules/_components.scss */
+#header-img img {
+  width: 100%;
+}
+
+/* line 15, ../scss/modules/_components.scss */
+#family-blue img {
+  display: none;
+}
+
+/* line 19, ../scss/modules/_components.scss */
+#family-icon {
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 29%;
+  color: #ffffff;
+  font-family: 'Museo Sans';
+}
+
+/* line 28, ../scss/modules/_components.scss */
+#family-icon h1 {
+  font-size: 60px;
+  font-family: 'museosans_100';
+  font-weight: 100;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+/* line 36, ../scss/modules/_components.scss */
+#family-icon h2 {
+  font-size: 22px;
+  font-family: 'museosans_300';
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 525px;
+  font-weight: 300;
+}
+
+/* line 45, ../scss/modules/_components.scss */
+#tab-header-wrapper {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  line-height: 96px;
+  height: 101px;
+  font-size: 26px;
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+
+/* line 57, ../scss/modules/_components.scss */
+#tabs #tab-header-wrapper li {
+  border: 1px solid #d8d8d8;
+  background: #D1D1D1;
+  background: #f6f6f6;
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  height: 100px;
+  width: 40%;
+  text-align: center;
+}
+
+/* line 71, ../scss/modules/_components.scss */
+#tabs a {
+  color: #9ea2aa;
+  text-decoration: none;
+  float: none;
+  display: block;
+  font-family: 'museosans_300';
+  font-weight: 300;
+}
+
+/* line 80, ../scss/modules/_components.scss */
+#tabs #tab-header-wrapper li.selected {
+  background: #ffffff;
+  border-bottom: 1px solid #FFF;
+}
+
+/* line 85, ../scss/modules/_components.scss */
+#tabs #tab-header-wrapper li.selected a {
+  color: #0050ff;
+}
+
+/* line 89, ../scss/modules/_components.scss */
+#tabs #tab-header-wrapper ul li:hover {
+  background: #fff !important;
+}
+
+/* line 93, ../scss/modules/_components.scss */
+#tab1 {
+  margin: 0px auto;
+  width: 100%;
+}
+
+/* line 98, ../scss/modules/_components.scss */
+#price_table li {
+  border-collapse: collapse;
+  border-style: hidden;
+  background: #ffffff;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  height: 90px;
+}
+
+/* line 109, ../scss/modules/_components.scss */
+#price_table {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  color: #081f3f;
+  text-align: center;
+  display: inline-block;
+}
+
+/* line 117, ../scss/modules/_components.scss */
+#price_table .pack-title span {
+  font-size: 18px;
+  font-weight: 700;
+  background: #0050ff !important;
+  color: #ffffff;
+}
+
+/* line 124, ../scss/modules/_components.scss */
+#price_table .price {
+  font-family: 'museosans_100';
+  font-size: 60px;
+  font-weight: 100;
+  color: #0050ff;
+  background: #ffffff;
+  margin: 30px 0px 20px 0px;
+}
+
+/* line 133, ../scss/modules/_components.scss */
+#price_table .time {
+  font-family: 'museosans_700';
+  font-size: 16px;
+  font-weight: 700;
+  color: #081f3f;
+}
+
+/* line 140, ../scss/modules/_components.scss */
+#price_table .column_1 .header_row_1 {
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+  border-radius: 10px 10px 0 0;
+}
+
+/* line 146, ../scss/modules/_components.scss */
+#price_table .column_1 .header_row_2 {
+  height: 132px;
+  width: 100%;
+  padding: 5px 0;
+  background: #ffffff;
+}
+
+/* line 153, ../scss/modules/_components.scss */
+#price_table .column_1 {
+  width: 28%;
+  vertical-align: top;
+  padding-bottom: 60px;
+  background-color: white;
+  -webkit-transform: translate(0px, 0px);
+  -moz-transform: translate(0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 173px 33px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0px 0px 173px 33px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 0px 173px 33px rgba(0, 0, 0, 0.12);
+}
+
+/* line 175, ../scss/modules/_components.scss */
+#price_table .column_1:hover {
+  position: relative;
+  z-index: 100;
+  -webkit-transform: translate(-5px, -15px);
+  -moz-transform: translate(-5px, -15px);
+  -o-transform: translate(-5px, -15px);
+  -ms-transform: translate(-5px, -15px);
+  transform: translate(-5px, -15px);
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  -ms-transition-delay: 0s;
+  transition-delay: 0s;
+  -webkit-box-shadow: 0px 0px 173px 33px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0px 0px 173px 33px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 0px 173px 33px rgba(0, 0, 0, 0.12);
+}
+
+/* line 193, ../scss/modules/_components.scss */
+#price_table .column_1:nth-child(2) .price {
+  color: #2dc27a;
+}
+
+/* line 198, ../scss/modules/_components.scss */
+#price_table .row_style_1,
+#price_table .row_style_2 {
+  width: 100%;
+  height: 40px;
+  padding-top: 9px;
+}
+
+/* line 205, ../scss/modules/_components.scss */
+#price_table .row_style_2,
+#price_table .row_style_1 {
+  padding-left: 50px;
+  box-sizing: border-box;
+}
+
+/* line 211, ../scss/modules/_components.scss */
+#price_table .row_style_1 span,
+#price_table .row_style_2 span {
+  position: relative;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* line 218, ../scss/modules/_components.scss */
+#price_table .row_style_1 span,
+#price_table .row_style_2 span {
+  position: relative;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* line 225, ../scss/modules/_components.scss */
+#price_table .row_style_1 span:before,
+#price_table .row_style_2 span:before {
+  width: 24px;
+  height: 24px;
+  left: -30px;
+  position: absolute;
+  top: -3px;
+  content: "";
+}
+
+/* line 234, ../scss/modules/_components.scss */
+#price_table .no-option span:before {
+  width: 24px;
+  height: 24px;
+  left: -30px;
+  position: -30px;
+  position: absolute;
+  top: -3px;
+  content: "";
+}
+
+/* line 244, ../scss/modules/_components.scss */
+#price_table .header_row_1 {
+  background: #0050ff;
+  color: #ffffff;
+}
+
+/* line 249, ../scss/modules/_components.scss */
+#green {
+  background: #2dc27a !important;
+}
+
+/* line 253, ../scss/modules/_components.scss */
+.check-green {
+  color: #2dc27a;
+  margin-right: 25px;
+}
+
+/* line 258, ../scss/modules/_components.scss */
+.uncheck-grey {
+  color: #a4a8b0;
+  margin-right: 25px;
+}
+
+/* line 264, ../scss/modules/_components.scss */
+.row_style_2,
+.row_style_1 {
+  text-align: left !important;
+  vertical-align: middle;
+}
+
+/* line 269, ../scss/modules/_components.scss */
+#per-month {
+  width: 50px;
+  display: inline-block;
+  line-height: 12px;
+  height: 50px;
+}
+
+/* line 276, ../scss/modules/_components.scss */
+.per-month {
+  font-size: 16px;
+}
+
+/* line 280, ../scss/modules/_components.scss */
+.center {
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* line 285, ../scss/modules/_components.scss */
+.pack-title.center {
+  margin-top: 36px;
+  font-family: 'museosans_700';
+  font-weight: 700;
+}
+
+/* line 291, ../scss/modules/_components.scss */
+.smooth {
+  color: #d7dae0;
+}
+
+/* line 295, ../scss/modules/_components.scss */
+#posts_mobile {
+  display: none;
+}
+
+/* line 299, ../scss/modules/_components.scss */
+#posts {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 305, ../scss/modules/_components.scss */
+#post2 .post-image {
+  margin-right: 12%;
+}
+
+/* line 309, ../scss/modules/_components.scss */
+#main #posts .post-right p {
+  width: 100%;
+}
+
+/* line 313, ../scss/modules/_components.scss */
+#posts .btn_bottom {
+  padding-left: 0;
+}
+
+/* line 317, ../scss/modules/_components.scss */
+#post2 .post {
+  width: 45%;
+}
+
+/* line 321, ../scss/modules/_components.scss */
+.post {
+  width: 60%;
+  display: inline-block;
+  padding: 35px 35px 15px;
+  margin-top: 100px;
+  background: #ffffff;
+  position: relative;
+  text-align: left;
+  color: black;
+  padding-left: 0;
+}
+
+/* line 333, ../scss/modules/_components.scss */
+.post h2 {
+  font-family: 'museosans_100';
+  font-size: 50px;
+  font-weight: 100;
+  margin-bottom: 60px;
+}
+
+/* line 340, ../scss/modules/_components.scss */
+.post p {
+  font-family: 'museosans_300';
+  font-size: 18px;
+  font-weight: 300;
+  width: 80%;
+  padding-left: 0;
+}
+
+/* line 348, ../scss/modules/_components.scss */
+.post-image {
+  display: inline-block;
+  width: 30%;
+}
+
+/* line 355, ../scss/modules/_components.scss */
+#posts #post1,
+#posts #post2,
+#posts #post3 {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 361, ../scss/modules/_components.scss */
+#posts .post-image img {
+  width: 100%;
+  max-width: 400px;
+  min-width: 320px;
+}
+
+/* line 367, ../scss/modules/_components.scss */
+#forms {
+  width: 100%;
+  margin: 0 auto;
+  background: #f7f7f7;
+  padding: 70px 0;
+}
+
+/* line 374, ../scss/modules/_components.scss */
+#forms h2 {
+  color: #081f3f;
+  font-family: 'museosans_100';
+  font-size: 50px;
+  font-weight: 100;
+  margin: 30px 0 80px 0;
+}
+
+/* line 382, ../scss/modules/_components.scss */
+#form_form {
+  width: 80%;
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  position: relative;
+}
+
+/* line 391, ../scss/modules/_components.scss */
+#form {
+  padding: 30px 0 0 30px;
+  text-align: left;
+}
+
+/* line 396, ../scss/modules/_components.scss */
+.space {
+  padding-bottom: 20px;
+  font-family: 'muosans_700';
+}
+
+/* line 401, ../scss/modules/_components.scss */
+#contact_form .space_grey {
+  color: #9f9f9f;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'museosans_300';
+}
+
+/* line 408, ../scss/modules/_components.scss */
+#no_grey {
+  color: #081f3f;
+}
+
+/* line 412, ../scss/modules/_components.scss */
+#contact_form {
+  width: 65%;
+  margin: 0 auto;
+  background: #ffffff;
+  position: relative;
+  float: left;
+  padding-top: 80px;
+}
+
+/* line 422, ../scss/modules/_components.scss */
+#form-contact {
+  margin-left: 70px;
+}
+
+/* line 427, ../scss/modules/_components.scss */
+#form-contact input,
+textarea {
+  border: 2px solid #e4e3e3;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: "museosans_300";
+  color: #9f9f9f;
+  font-weight: 300;
+}
+
+/* line 439, ../scss/modules/_components.scss */
+textarea {
+  height: 200px;
+}
+
+/* line 443, ../scss/modules/_components.scss */
+.checkBox input {
+  border-color: #9f9f9f;
+}
+
+/* line 447, ../scss/modules/_components.scss */
+label.space_grey {
+  padding-top: 10px;
+}
+
+/* line 452, ../scss/modules/_components.scss */
+#form-contact input[type="email"],
+#form-contact textarea {
+  width: 90%;
+}
+
+/* line 457, ../scss/modules/_components.scss */
+#form-contact input[type="text"],
+#form-contact input[type="number"] {
+  width: 45%;
+}
+
+/* line 461, ../scss/modules/_components.scss */
+#form-contact label {
+  font-family: 'museosans_700';
+  font-size: 18px;
+  font-weight: 700;
+  color: #081f3f;
+}
+
+/* line 468, ../scss/modules/_components.scss */
+#form-contact .space:first-child {
+  margin-right: 20px;
+}
+
+/* line 473, ../scss/modules/_components.scss */
+#form-contact .space:first-child,
+#form-contact .space:nth-child(2) {
+  display: inline-block;
+  max-width: 280px;
+  width: 45%;
+}
+
+/* line 480, ../scss/modules/_components.scss */
+#form-contact .space:first-child input,
+#form-contact .space:nth-child(2) input {
+  width: 100% !important;
+}
+
+/* line 484, ../scss/modules/_components.scss */
+#error {
+  background: #fc6666;
+  height: 70px;
+  color: #ffffff;
+  font-family: 'museosans_500';
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* line 493, ../scss/modules/_components.scss */
+#error p {
+  padding-top: 24px;
+}
+
+/* line 497, ../scss/modules/_components.scss */
+#name_card {
+  width: 35%;
+  background: #004ffb;
+  position: relative;
+  float: right;
+  padding-bottom: 35px;
+  padding-top: 80px;
+}
+
+/* line 506, ../scss/modules/_components.scss */
+#need_more h2 {
+  font-family: 'museosans_100';
+  font-size: 30px;
+  font-weight: 100;
+  color: #ffffff;
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+
+/* line 515, ../scss/modules/_components.scss */
+#need_more p {
+  font-family: 'museosans_300';
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 80%;
+}
+
+/* line 526, ../scss/modules/_components.scss */
+#cto {
+  background: #ffffff;
+  text-align: center;
+  border-radius: 5px;
+  margin: 30px;
+}
+
+/* line 533, ../scss/modules/_components.scss */
+#cto h2 {
+  font-family: 'museosans_300';
+  font-size: 26px;
+  font-weight: 300;
+  color: black;
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+/* line 542, ../scss/modules/_components.scss */
+#cto h3 {
+  font-family: 'museosans_300';
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+  padding: 0;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+/* line 552, ../scss/modules/_components.scss */
+#cto img {
+  margin-bottom: 40px;
+}
+
+/* line 556, ../scss/modules/_components.scss */
+#cto p {
+  font-family: 'museosans_300';
+  font-size: 18px;
+  font-weight: 300px;
+  color: #004ffb;
+}
+
+/* line 563, ../scss/modules/_components.scss */
+#cto_bottom {
+  padding-bottom: 50px;
+  font-size: 16px;
+}
+
+/* line 568, ../scss/modules/_components.scss */
+#exclamation {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1400px) {
+  /* line 575, ../scss/modules/_components.scss */
+  #posts .post-left {
+    margin-right: 0;
+  }
+
+  /* line 579, ../scss/modules/_components.scss */
+  #posts .post-right {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 1250px) {
+  /* line 585, ../scss/modules/_components.scss */
+  #price_table .column_1:last-child {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  /* line 591, ../scss/modules/_components.scss */
+  #price_table .column_1 {
+    width: 35%;
+  }
+
+  /* line 594, ../scss/modules/_components.scss */
+  .post h2 {
+    margin-bottom: 30px;
+  }
+
+  /* line 597, ../scss/modules/_components.scss */
+  .post p {
+    margin-bottom: 20px;
+  }
+
+  /* line 600, ../scss/modules/_components.scss */
+  #posts .post-left {
+    margin-right: 0;
+    width: 50%;
+  }
+
+  /* line 604, ../scss/modules/_components.scss */
+  #posts .post-right {
+    margin-left: 0;
+  }
+
+  /* line 607, ../scss/modules/_components.scss */
+  #cto_bottom {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* line 611, ../scss/modules/_components.scss */
+  #cto p {
+    font-size: 16px;
+  }
+
+  /* line 614, ../scss/modules/_components.scss */
+  #send_message {
+    margin-left: 109px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  /* line 621, ../scss/modules/_components.scss */
+  .post h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+
+  /* line 625, ../scss/modules/_components.scss */
+  .post p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  /* line 629, ../scss/modules/_components.scss */
+  #posts .post-left {
+    margin-right: 0;
+  }
+
+  /* line 633, ../scss/modules/_components.scss */
+  #posts .post-right {
+    margin-left: 0;
+  }
+
+  /* line 637, ../scss/modules/_components.scss */
+  #send_message {
+    margin-left: 60px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 1025px) {
+  /* line 644, ../scss/modules/_components.scss */
+  #price_table .column_1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 50%;
+  }
+
+  /* line 651, ../scss/modules/_components.scss */
+  .post h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  /* line 655, ../scss/modules/_components.scss */
+  .post p {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  /* line 659, ../scss/modules/_components.scss */
+  #posts .post-left {
+    margin-right: 0;
+  }
+
+  /* line 663, ../scss/modules/_components.scss */
+  #posts .post-right {
+    margin-left: 40px;
+  }
+
+  /* line 667, ../scss/modules/_components.scss */
+  #form_form {
+    width: 90%;
+  }
+
+  /* line 670, ../scss/modules/_components.scss */
+  .checkBox input {
+    width: 25px;
+    height: 25px;
+  }
+
+  /* line 674, ../scss/modules/_components.scss */
+  #forms h2 {
+    margin: 30px 0 40px 0;
+    font-size: 40px;
+  }
+
+  /* line 680, ../scss/modules/_components.scss */
+  #posts #post1,
+  #posts #post2,
+  #posts #post3 {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+  /* line 687, ../scss/modules/_components.scss */
+  #price_table .column_1 {
+    width: 60%;
+  }
+
+  /* line 690, ../scss/modules/_components.scss */
+  #tab-header-wrapper {
+    height: 80px;
+    line-height: 80px;
+  }
+
+  /* line 694, ../scss/modules/_components.scss */
+  #tabs #tab-header-wrapper ul li {
+    height: 80px;
+  }
+
+  /* line 697, ../scss/modules/_components.scss */
+  #tab-header-wrapper ul li a {
+    font-size: 24px;
+  }
+
+  /* line 700, ../scss/modules/_components.scss */
+  .post h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  /* line 704, ../scss/modules/_components.scss */
+  .post p {
+    font-size: 16px;
+  }
+
+  /* line 707, ../scss/modules/_components.scss */
+  #posts .post-left {
+    margin-right: 0;
+    width: 50%;
+  }
+
+  /* line 711, ../scss/modules/_components.scss */
+  #posts .post-right {
+    margin-left: 0;
+  }
+
+  /* line 714, ../scss/modules/_components.scss */
+  #posts .post-image img {
+    width: 100%;
+    max-width: 300px;
+    min-width: 180px;
+  }
+
+  /* line 719, ../scss/modules/_components.scss */
+  #form-contact label {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 800px) {
+  /* line 725, ../scss/modules/_components.scss */
+  #tab-header-wrapper ul li a {
+    font-size: 21px;
+  }
+
+  /* line 728, ../scss/modules/_components.scss */
+  .post h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  /* line 732, ../scss/modules/_components.scss */
+  .post p {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* line 737, ../scss/modules/_components.scss */
+  #posts .post-left {
+    margin-right: 0;
+  }
+
+  /* line 740, ../scss/modules/_components.scss */
+  #posts .post-right {
+    margin-left: 0;
+  }
+
+  /* line 743, ../scss/modules/_components.scss */
+  #forms {
+    padding: 30px 0;
+  }
+
+  /* line 746, ../scss/modules/_components.scss */
+  #form {
+    padding: 0;
+  }
+
+  /* line 749, ../scss/modules/_components.scss */
+  #form-contact label {
+    font-size: 16px;
+  }
+
+  /* line 753, ../scss/modules/_components.scss */
+  #form-contact input,
+  textarea {
+    padding: 5px;
+    margin-top: 5px;
+  }
+
+  /* line 757, ../scss/modules/_components.scss */
+  textarea {
+    height: 120px;
+  }
+
+  /* line 760, ../scss/modules/_components.scss */
+  .checkBox input {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 764, ../scss/modules/_components.scss */
+  #send_message {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* line 768, ../scss/modules/_components.scss */
+  #name_card {
+    padding-bottom: 0;
+    padding-top: 10px;
+  }
+
+  /* line 772, ../scss/modules/_components.scss */
+  #forms h2 {
+    font-size: 20px;
+  }
+
+  /* line 775, ../scss/modules/_components.scss */
+  #need_more p {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  /* line 779, ../scss/modules/_components.scss */
+  #cto {
+    margin: 25px;
+  }
+
+  /* line 782, ../scss/modules/_components.scss */
+  #cto h2 {
+    font-size: 12px;
+    padding-top: 15px;
+    margin: 0;
+  }
+
+  /* line 787, ../scss/modules/_components.scss */
+  #cto h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  /* line 791, ../scss/modules/_components.scss */
+  #cto img {
+    margin-bottom: 20px;
+  }
+
+  /* line 794, ../scss/modules/_components.scss */
+  #cto p {
+    font-size: 12px;
+  }
+
+  /* line 797, ../scss/modules/_components.scss */
+  #cto_bottom {
+    padding-bottom: 30px;
+  }
+
+  /* line 800, ../scss/modules/_components.scss */
+  #cto_bottom p {
+    font-size: 12px;
+  }
+
+  /* line 803, ../scss/modules/_components.scss */
+  #error {
+    height: 60px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 700px) {
+  /* line 810, ../scss/modules/_components.scss */
+  #price_table .column_1 {
+    width: 70%;
+  }
+
+  /* line 813, ../scss/modules/_components.scss */
+  #tab-header-wrapper {
+    height: 70px;
+    line-height: 70px;
+  }
+
+  /* line 817, ../scss/modules/_components.scss */
+  #tabs #tab-header-wrapper ul li {
+    height: 68px;
+  }
+
+  /* line 820, ../scss/modules/_components.scss */
+  #tab-header-wrapper ul li a {
+    font-size: 20px;
+  }
+
+  /* line 823, ../scss/modules/_components.scss */
+  .post h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  /* line 827, ../scss/modules/_components.scss */
+  .post p {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 832, ../scss/modules/_components.scss */
+  #posts .post-left {
+    margin-right: 0;
+  }
+
+  /* line 835, ../scss/modules/_components.scss */
+  #posts .post-right {
+    margin-left: 0;
+  }
+
+  /* line 838, ../scss/modules/_components.scss */
+  #forms {
+    margin: 0 auto;
+    padding: 70px 0;
+  }
+
+  /* line 842, ../scss/modules/_components.scss */
+  #form_form {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    float: left;
+    background: #f7f7f7;
+  }
+
+  /* line 849, ../scss/modules/_components.scss */
+  #contact_form {
+    width: 90%;
+    padding-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    padding-bottom: 35px;
+  }
+
+  /* line 857, ../scss/modules/_components.scss */
+  #send_message {
+    margin-left: 75px;
+  }
+
+  /* line 860, ../scss/modules/_components.scss */
+  #error {
+    display: none;
+  }
+
+  /* line 863, ../scss/modules/_components.scss */
+  #name_card {
+    width: 90%;
+    height: 410px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 35px;
+    float: none;
+    margin-bottom: 70px;
+  }
+
+  /* line 872, ../scss/modules/_components.scss */
+  #cto {
+    width: 390px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 880, ../scss/modules/_components.scss */
+  #posts_mobile {
+    display: block !important;
+    margin-top: 60px;
+  }
+
+  /* line 884, ../scss/modules/_components.scss */
+  #posts {
+    display: none !important;
+  }
+
+  /* line 887, ../scss/modules/_components.scss */
+  .post-image {
+    display: block;
+    margin-right: auto;
+    width: 80%;
+    margin-left: auto;
+    margin-top: 50px;
+  }
+
+  /* line 894, ../scss/modules/_components.scss */
+  .post-image img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    min-width: 180px;
+    max-width: 400px;
+    width: 100%;
+  }
+
+  /* line 902, ../scss/modules/_components.scss */
+  #posts_mobile h2 {
+    font-size: 23px;
+    font-weight: 100;
+    font-family: 'museosans_100';
+  }
+
+  /* line 907, ../scss/modules/_components.scss */
+  .post {
+    margin-top: 0;
+    width: 80%;
+    text-align: center;
+    padding-right: 0;
+  }
+
+  /* line 913, ../scss/modules/_components.scss */
+  header #family-icon img {
+    display: none;
+  }
+
+  /* line 916, ../scss/modules/_components.scss */
+  header #family-blue img {
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 515px) {
+  /* line 925, ../scss/modules/_components.scss */
+  #price_table .column_1 {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 931, ../scss/modules/_components.scss */
+  #contact_form {
+    width: 100%;
+    background: transparent;
+    padding-top: 0;
+  }
+
+  /* line 937, ../scss/modules/_components.scss */
+  #form-contact .space:first-child,
+  #form-contact .space:nth-child(2) {
+    display: block;
+    width: 90%;
+    max-width: none;
+  }
+
+  /* line 942, ../scss/modules/_components.scss */
+  #form-contact {
+    margin-left: 20px;
+  }
+
+  /* line 945, ../scss/modules/_components.scss */
+  #form-contact label {
+    font-size: 13px;
+  }
+
+  /* line 948, ../scss/modules/_components.scss */
+  #contact_form .space_grey {
+    font-size: 13px;
+  }
+
+  /* line 951, ../scss/modules/_components.scss */
+  .checkBox input {
+    width: 15px;
+    height: 15px;
+  }
+
+  /* line 955, ../scss/modules/_components.scss */
+  #forms {
+    padding: 0;
+  }
+
+  /* line 958, ../scss/modules/_components.scss */
+  #forms h2 {
+    margin: 0;
+    padding-top: 35px;
+    padding-bottom: 20px;
+  }
+
+  /* line 963, ../scss/modules/_components.scss */
+  #name_card {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  /* line 967, ../scss/modules/_components.scss */
+  #cto {
+    width: 90%;
+  }
+
+  /* line 970, ../scss/modules/_components.scss */
+  #cto img {
+    width: 50px;
+  }
+
+  /* line 973, ../scss/modules/_components.scss */
+  .btn_bottom {
+    text-align: center;
+  }
+
+  /* line 976, ../scss/modules/_components.scss */
+  #send_message {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 380px) {
+  /* line 983, ../scss/modules/_components.scss */
+  #price_table .row_style_2,
+  #price_table .row_style_1 {
+    padding-left: 20px;
+  }
+
+  /* line 987, ../scss/modules/_components.scss */
+  #price_table .row_style_2 span,
+  #price_table .row_style_1 span {
+    font-size: 13px;
+  }
+
+  /* line 991, ../scss/modules/_components.scss */
+  #price_table .row_style_2 .price > span,
+  #price_table .row_style_1 .price > span {
+    font-size: 48px;
+  }
+
+  /* line 994, ../scss/modules/_components.scss */
+  #price_table .time {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+
+  /* line 998, ../scss/modules/_components.scss */
+  #price_table .column_1 .header_row_1 {
+    height: 45px;
+  }
+
+  /* line 1002, ../scss/modules/_components.scss */
+  #price_table .column_1 .header_row_1 .price,
+  #price_table .column_1 .header_row_2 .price {
+    margin-bottom: 0;
+  }
+
+  /* line 1005, ../scss/modules/_components.scss */
+  .pack-title.center {
+    margin-top: 15px;
+  }
+
+  /* line 1008, ../scss/modules/_components.scss */
+  #tab-header-wrapper ul li a {
+    font-size: 14px;
+  }
+
+  /* line 1011, ../scss/modules/_components.scss */
+  #tabs #tab-header-wrapper ul li {
+    height: 36px;
+  }
+
+  /* line 1014, ../scss/modules/_components.scss */
+  #tab-header-wrapper {
+    height: 40px;
+    line-height: 40px;
+  }
+
+  /* line 1018, ../scss/modules/_components.scss */
+  #tab-header-wrapper {
+    line-height: 36px;
+  }
+}

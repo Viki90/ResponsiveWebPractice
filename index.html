@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Company</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link href="#" rel="stylesheet">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="mobile_header">
+            <div id="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div id="mobile_nav">
+            <div id="nav1">
+                <ul>
+                    <li><a href="#">Patients</a></li>
+                    <li><a href="#">Clinicians</a></li>
+                    <li><a href="#">Business</a></li>
+                </ul>
+            </div>
+            <div id="top1">
+                <ul>
+                    <li><a href="#">What we do</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div id="btn1">
+                <input id="log1" class="btnLogSign" type="submit" value="Log in">
+                <input id="sign1" class="btnLogSign" type="submit" value="Sign up">
+            </div>
+
+        </div>
+        <!--The Layer that will be layed over the content
+    so that the content is unclickable while menu is shown-->
+        <div id="contentLayer"></div>
+
+        <div id="content">
+            <header>
+                <div id="top">
+                    <ul>
+                        <li><a href="#">Patients</a></li>
+                        <li><a href="#">Clinicians</a></li>
+                        <li><a href="#">Business</a></li>
+                    </ul>
+                    <br>
+                </div>
+                <br>
+                <div id="bottom">
+
+                    <div id="logo">
+                        <img src="images/logo.png" alt="company logo">
+                    </div>
+                    <div id="nav" class="menu">
+                        <ul>
+                            <li><a href="#">What we do</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div id="btn">
+                        <input id="log" class="btnLogSign" type="submit" value="Log in">
+                        <input id="sign" class="btnLogSign" type="submit" value="Sign up">
+                    </div>
+                </div>
+                <div id="family-blue">
+                    <img src="images/family-icon-blue.png" alt="family-blue">
+                </div>
+                <div id="family-icon">
+                    <img src="images/Family_icon.png" alt="family">
+                    <h1>Sed ut perspiciatis unde omnis iste nat</h1>
+                    <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</h2>
+                </div>
+                <div id="header-img">
+                    <img src="images/header_image.jpg" alt="family">
+                </div>
+            </header>
+            <div id="main">
+                <div id="features">
+                    <div class="icons">
+                        <img src="images/Vector_Smart_Object3.png" alt="doctor">
+                        <p>Lorem ipsum dolor sit amet consectetuer adipiscing </p>
+                    </div>
+                    <div class="icons">
+                        <img src="images/Vector_Smart_Object2.png" alt="video">
+                        <p>Lorem ipsum dolor sit amet consectetuer adipiscing </p>
+                    </div>
+                    <div class="icons">
+                        <img src="images/Vector_Smart_Object4.png" alt="chart">
+                        <p>Lorem ipsum dolor sit amet consectetuer adipiscing </p>
+                    </div>
+                    <div class="icons">
+                        <img src="images/Vector_Smart_Object1.png" alt="pills bottle">
+                        <p>Lorem ipsum dolor sit amet consectetuer adipiscing </p>
+                    </div>
+                </div>
+                <div id="tabs">
+                    <div id="tab-header-wrapper">
+                        <ul>
+                            <li class="selected"><a href="#tab-1">Lorem plans</a></li>
+                            <li><a href="#tab-2">Ipsum plans</a></li>
+                        </ul>
+                    </div>
+                    <div id="tab-1">
+                        <div id="price_table">
+                            <div class="column_1">
+                                <ul>
+                                    <li class="header_row_1">
+                                        <div class="pack-title center">Monthly plan</div>
+                                    </li>
+                                    <li class="header_row_2">
+                                        <div class="price center"><span>£18</span>
+                                            <div id="per-month">
+                                                <span class="per-month">per</span>
+                                                <span class="per-month">month</span>
+                                            </div>
+                                        </div>
+                                        <div class="time center">minimum 4 months</div>
+                                    </li>
+                                    <li class="row_style_1"><span class="check-green">&#x2713;</span><span> Unlimited online appointments</span></li>
+                                    <li class="row_style_1"><span class="check-green">&#x2713;</span><span> Health tracking</span></li>
+                                    <li class="row_style_1"><span class="check-green">&#x2713;</span><span> NHS repeat prescriptions</span></li>
+                                    <li class="row_style_1"><span class="check-green">&#x2713;</span><span> 2 free international appointments</span></li>
+                                    <li class="row_style_1"><span class="check-green">&#x2713;</span><span class="smooth"> Discounts for family members</span></li>
+                                </ul>
+                            </div>
+
+
+                            <div class="column_1">
+                                <ul>
+                                    <li id="green" class="header_row_1">
+                                        <div class="pack-title center">Annual plan</div>
+                                    </li>
+                                    <li class="header_row_2">
+                                        <div class="price center"><span>£180</span></div>
+                                        <div class="time center">save £36 per year</div>
+                                    </li>
+                                    <li class="row_style_2"><span class="check-green">&#x2713;</span><span> Unlimited online appointments</span></li>
+                                    <li class="row_style_2"><span class="check-green">&#x2713;</span><span> Health tracking</span></li>
+                                    <li class="row_style_2"><span class="check-green">&#x2713;</span><span> NHS repeat prescriptions</span></li>
+                                    <li class="row_style_2"><span class="check-green">&#x2713;</span><span> 2 free international appointments</span></li>
+                                    <li class="row_style_2"><span class="check-green">&#x2713;</span><span> Discounts for family members</span></li>
+                                </ul>
+                            </div>
+
+                            <div class="column_1">
+                                <ul>
+                                    <li class="header_row_1">
+                                        <div class="pack-title center"><span>Pay as you go</span></div>
+                                    </li>
+                                    <li class="header_row_2">
+                                        <div class="price centar"><span>£75</span></div>
+                                        <div class="time centar">Per appointment</div>
+                                    </li>
+                                    <li class="row_style_1 no-option"><span class="uncheck-grey">&#x2717;</span><span class="smooth"> Unlimited online appointments</span></li>
+                                    <li class="row_style_1 no-option"><span class="uncheck-grey">&#x2717;</span><span class="smooth"> Health tracking</span></li>
+                                    <li class="row_style_1 no-option"><span class="uncheck-grey">&#x2717;</span><span class="smooth"> NHS repeat prescriptions</span></li>
+                                    <li class="row_style_1 no-option"><span class="uncheck-grey">&#x2717;</span><span class="smooth"> 2 free international appointments</span>
+                                    </li>
+                                    <li class="row_style_1 no-option"><span class="uncheck-grey">&#x2717;</span><span class="smooth"> Discounts for family members</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="tab-2">
+
+                    </div>
+
+                </div>
+                <div>
+                    <input id="sing_up_now" type="submit" value="Sing up now >">
+                </div>
+                <div id="user_story">
+                    <div class="color_block" id="color_block1">
+                        <h2>USER’S STORY</h2>
+                        <p>“Lorem ipsum dolor sit amet,<br> consectetuer adipiscing elit,<br> sed diam nonummy”</p>
+                        <div>
+                            <a id="read_users_story" href="#">Read user's story<span class="arrow">&#8250;</span></a>
+
+                        </div>
+                    </div>
+                    <div class="color_block" id="color_block2">
+                        <img src="images/image.jpg" alt="user story image">
+                    </div>
+                </div>
+                <div id="faq">
+                    <h2 id="notes">Lorem ipsum notes</h2>
+                    <div id="accordion-container">
+                        <h2 class="accordion-header accordion-open">Who can use the service?</h2>
+                        <div class="accordion-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at condimentum ligula. Praesent et feugiat diam, sit amet venenatis orci. Pellentesque facilisis tincidunt porttitor. Mauris ligula ex, mattis id purus a, blandit
+                                aliquam justo. Nunc a lobortis.</p>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Praesent et feugiat diam sit amet venenatis orci</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipiscing elit</li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at condimentum ligula. Praesent et feugiat diam, sit amet venenatis orci. Pellentesque facilisis tincidunt porttitor. Mauris ligula ex, mattis id purus a, blandit
+                                aliquam justo. Nunc a lobortis.</p>
+                        </div>
+                        <h2 class="accordion-header accordion-closed">How do the appointments work?</h2>
+                        <div class="accordion-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at condimentum ligula. Praesent et feugiat diam, sit amet venenatis orci. Pellentesque facilisis tincidunt porttitor. Mauris ligula ex, mattis id purus a, blandit
+                                aliquam justo. Nunc a lobortis.</p>
+                        </div>
+                        <h2 class="accordion-header accordion-closed">How much does it cost?</h2>
+                        <div class="accordion-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at condimentum ligula. Praesent et feugiat diam, sit amet venenatis orci. Pellentesque facilisis tincidunt porttitor. Mauris ligula ex, mattis id purus a, blandit
+                                aliquam justo. Nunc a lobortis.</p>
+                        </div>
+                        <h2 class="accordion-header accordion-closed">What conditions do you treat?</h2>
+                        <div class="accordion-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at condimentum ligula. Praesent et feugiat diam, sit amet venenatis orci. Pellentesque facilisis tincidunt porttitor. Mauris ligula ex, mattis id purus a, blandit
+                                aliquam justo. Nunc a lobortis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="promo_panel">
+
+                    <div class="btn_bottom"><a id="lorem_ipsum_notes" href="#">Lorem ipsum notes<span class="arrow">&#8250;</span></a></div>
+                    <div class="promo_panel_panel">
+                        <div class="panel side-panel">
+                            <img src="images/Photo1.png" alt="photo1">
+                            <img src="images/Photo2.png" alt="photo2">
+                        </div>
+                        <div class="panel panel-green">
+                            <div id="scope">
+                                <img src="images/scope_icon.png" alt="scope icon">
+                            </div>
+                            <div class="scope_title">
+                                <h2>Title</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                            </div>
+                            <div class="btn_bottom">
+                                <a class="read_more" href="#">
+                                    <div class="read-more-text">Read more</div><span class="arrow">&#8250;</span></a>
+                            </div>
+                        </div>
+                        <div class="panel side-panel">
+                            <img src="images/Photo3.png" alt="photo3">
+                            <img src="images/Photo4.png" alt="photo4">
+                        </div>
+                    </div>
+                    <div class="promo_panel_panel mobile_panel">
+                        <div class="panel panel-green">
+                            <div id="scope1">
+                                <img src="images/scope_icon.png" alt="scope icon">
+                            </div>
+                            <div class="scope_title">
+                                <h2>Title</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                            </div>
+                            <div class="btn_bottom">
+                                <a class="read_more" href="#">
+                                    <div class="read-more-text">Read more</div><span class="arrow">&#8250;</span></a>
+                            </div>
+                        </div>
+                        <div class="panel side-panel">
+                            <img src="images/Photo1.png" alt="photo1">
+                            <img src="images/Photo2.png" alt="photo2">
+                        </div>
+                        <div class="panel side-panel">
+                            <img src="images/Photo3.png" alt="photo3">
+                            <img src="images/Photo4.png" alt="photo4">
+                        </div>
+                    </div>
+
+
+                </div>
+                <div id="posts">
+                    <div id="post1">
+                        <div class="post post-left">
+                            <h2>Post title</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                                lobortis nisl ut aliquip ex ea commodo consequat</p>
+                            <div class="btn_bottom">
+                                <a class="read_more" href="#">Read more<span class="arrow">&#8250;</span></a>
+                            </div>
+                        </div>
+                        <div class="post-image">
+                            <img src="images/Illustration.png" alt="Post 2">
+                        </div>
+                    </div>
+                    <div id="post2">
+                        <div class="post-image">
+                            <img src="images/illsutration2.png" alt="Post 3">
+                        </div>
+                        <div class="post post-right">
+                            <h2>Post title</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                                lobortis nisl ut aliquip ex ea commodo consequat</p>
+                            <div class="btn_bottom">
+                                <a class="read_more" href="#">Read more<span class="arrow">&#8250;</span></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="post3">
+                        <div class="post post-left">
+                            <h2>Post title</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                                lobortis nisl ut aliquip ex ea commodo consequat</p>
+                            <div class="btn_bottom">
+                                <a class="read_more" href="#">Read more<span class="arrow">&#8250;</span></a>
+                            </div>
+                        </div>
+                        <div class="post-image">
+                            <img src="images/illsutration3.png" alt="Post 3">
+                        </div>
+                    </div>
+
+                </div>
+                <div id="posts_mobile">
+                    <h2>Our vision</h2>
+                    <div id="post1_mobile">
+                        <div class="post-image">
+                            <img src="images/Illustration.png" alt="Post 2">
+                        </div>
+                        <div class="post post-left">
+
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                                lobortis nisl ut aliquip ex ea commodo consequat</p>
+                            <div class="btn_bottom">
+                                <a class="read_more" href="#">Read more<span class="arrow">&#8250;</span></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <h2>Post title</h2>
+                    <div id="post2_mobile">
+                        <div class="post-image">
+                            <img src="images/illsutration2.png" alt="Post 3">
+                        </div>
+                        <div class="post post-right">
+
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                                lobortis nisl ut aliquip ex ea commodo consequat</p>
+                            <div class="btn_bottom">
+                                <a class="read_more" href="#">Read more<span class="arrow">&#8250;</span></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <h2>Post title</h2>
+                    <div id="post3_mobile">
+                        <div class="post-image">
+                            <img src="images/illsutration3.png" alt="Post 3">
+                        </div>
+                        <div class="post post-left">
+
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                                lobortis nisl ut aliquip ex ea commodo consequat</p>
+                            <div class="btn_bottom">
+                                <a class="read_more" href="#">Read more<span class="arrow">&#8250;</span></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div id="forms">
+                    <h2>Contact form</h2>
+                    <div id="form_form">
+                        <div id="contact_form">
+                            <div id="form">
+                                <form action="index.html" method="post" id="form-contact">
+
+                                    <div class="space">
+                                        <label for="name" class="name">Your name</label>
+                                        <br>
+                                        <input type="text" name="name" id="name">
+                                    </div>
+                                    <div class="space">
+                                        <label for="number" class="number">Number</label>
+                                        <br>
+                                        <input type="number" name="number" id="number">
+                                    </div>
+
+
+                                    <div class="space">
+                                        <label for="email" class="email">Your email address</label>
+                                        <br>
+                                        <input type="email" name="email" id="email">
+                                    </div>
+                                    <div class="space">
+                                        <label for="message" id="message">Your message</label>
+                                        <br>
+                                        <textarea name="message"></textarea>
+
+                                    </div>
+                                    <div class="space space_grey">
+                                        <label for="terms" id="no_grey">Accept terms</label>
+                                        <br>
+                                        <br>
+                                        <div class="checkBox">
+                                            <input type="checkbox" name="term1" value="value1">
+                                            <label for="value1" class="space_grey">I accept the terms</label>
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <div class="checkBox">
+                                            <input type="checkbox" class="space-grey" name="term2" value="value2" checked>
+                                            <label for="value2" class="space_grey">I accept the terms (checked)</label>
+                                        </div>
+                                    </div>
+                                    <div class="btn_bottom">
+                                        <a id="send_message" href="#">Send message<span class="arrow">&#8250;</span></a>
+
+                                    </div>
+                                </form>
+                            </div>
+                            <div id="error">
+                                <p><span id="exclamation">&#33;</span> There are errors with your form</p>
+                            </div>
+
+                        </div>
+                        <div id="name_card">
+                            <div id="need_more">
+                                <h2>Need more info?</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolor.</p>
+                            </div>
+                            <div id="cto">
+                                <h2>John Johnson</h2>
+                                <h3>CTO</h3>
+                                <img src="images/cto.png" alt="profile image">
+                                <p>024 546 785</p>
+                                <p id="cto_bottom">johnjohnson@example.com</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <footer>
+
+                <div id="bottom_nav">
+                    <div id="second-nav">
+                        <ul>
+                            <li><a href="#"><span class="arrow">&#10688;</span> Previous</a></li>
+                            <li class="home-next"><a href="#">Home</a></li>
+                            <li class="home-next"><a href="#">Next <span class="arrow">&#10689;</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="middle-footer">
+                    <div id="middle-footer-wrapper">
+                        <div id="logo_footer" class="middle_center">
+                            <img src="images/logo-footer.png" alt="footer logo">
+                        </div>
+                        <div id="column1" class="middle_center">
+                            <ul>
+                                <li class="footer-grey">OUR SITES</li>
+                                <li class="footer-blue"><a href="#">Patients</a></li>
+                                <li><a href="#">Clinicians</a></li>
+                                <li><a href="#">Businesss</a></li>
+                                <li><a href="#">Pharmacists</a></li>
+                            </ul>
+                        </div>
+                        <div id="column2" class="middle_center">
+                            <ul>
+                                <li class="footer-grey">THE SERVICE</li>
+                                <li class="footer-blue"><a href="#">What we do</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div id="column3" class="middle_center">
+                            <ul>
+                                <li class="footer-grey">USEFUL LINKS</li>
+                                <li><a href="#">FAQs</a></li>
+                                <li><a href="#">User stories</a></li>
+                                <li><a href="#">Mobile apps</a></li>
+                                <li><a href="#">Media</a></li>
+                                <li><a href="#">International</a></li>
+                            </ul>
+                        </div>
+                        <div id="column4" class="middle_center">
+                            <input id="my_home_btn" type="submit" value="         My home &#62; ">
+                            <div class="img_float">
+                                <img src="images/app_store_icon.png" alt="app store">
+                            </div>
+                            <div class="img_float">
+                                <img src="images/google_play_icon.png" alt="google play icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="bottom_footer">
+                    <div id="footer-end">
+
+                        <div id="terms_privacy" class="end">
+                            <a href="#">Terms</a>
+                            <span>+</span>
+                            <a href="#">Privacy</a>
+                        </div>
+                        <div id="social_icon" class="end">
+                            <ul>
+                                <li>
+                                    <a href="#"><img src="images/facebook_icon.png" alt="facebook"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/twitter_icon.png" alt="twitter"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/youtube-icon.png" alt="youtube"></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

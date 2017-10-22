@@ -1,0 +1,415 @@
+                   #top1 {
+                       display: none;
+                   }
+                   
+                   #nav1 {
+                       display: none;
+                   }
+                   
+                   #btn1 {
+                       display: none;
+                   }
+                   
+                   #top {
+                       background: #fff;
+                       color: black;
+                       font-family: 'museosans_300';
+                       font-size: 14px;
+                       width: 87.8%;
+                       list-style: none;
+                       text-decoration: none;
+                       float: right;
+                       padding-right: 10%;
+                       padding-left: 0;
+                       margin-top: 10px;
+                       margin-bottom: 20px;
+                   }
+                   
+                   #top ul {
+                       list-style-type: none;
+                       margin: 0;
+                       padding: 0;
+                       background-color: #fff;
+                       list-style-type: none;
+                       float: right;
+                   }
+                   
+                   #top ul li {
+                       display: inline-block;
+                   }
+                   
+                   #top ul li:last-child a {
+                       margin-right: 0;
+                   }
+                   
+                   #top ul li a {
+                       color: #081f3f;
+                       padding-top: 5px;
+                       padding-bottom: 0;
+                       padding-right: 5px;
+                       text-decoration: none;
+                       margin-right: 25px;
+                   }
+                   
+                   #top ul li a:hover {
+                       color: #0050ff;
+                   }
+                   
+                   #bottom {
+                       background: #fff;
+                       color: black;
+                       font-size: 14px;
+                       width: 100%;
+                       float: right;
+                       text-align: center;
+                       margin: 0;
+                   }
+                   
+                   #nav {
+                       float: left;
+                       font-size: 18px;
+                       font-family: 'museosans_700';
+                   }
+                   
+                   #nav ul {
+                       margin: 0;
+                       padding: 0;
+                       list-style: none;
+                   }
+                   
+                   #nav ul li {
+                       float: left;
+                   }
+                   
+                   #nav ul li a {
+                       display: block;
+                       line-height: 40px;
+                       padding: 20px;
+                       color: #081f3f;
+                       text-decoration: none;
+                       border-bottom: 4px solid #FFF;
+                   }
+                   
+                   #nav ul li a:visited {
+                       color: black;
+                   }
+                   
+                   #nav ul li a:hover {
+                       background: #fff;
+                       color: black;
+                       border-bottom: 4px solid #0050ff;
+                   }
+                   
+                   #nav ul li a:active {
+                       background: #EEE;
+                       border-bottom: 4px solid #CCC;
+                   }
+                   
+                   #logo {
+                       display: block;
+                       float: left;
+                       margin: auto;
+                       padding: 5px;
+                       width: 30%;
+                   }
+                   
+                   #head-img {
+                       clear: both;
+                       width: 100%;
+                       margin: 0;
+                   }
+                   
+                   @media screen and (max-width:1235px) {
+                       #logo {
+                           width: 25%;
+                       }
+                       header #family-icon h1 {
+                           font-size: 50px;
+                           margin-bottom: 30px;
+                       }
+                       header #family-icon h2 {
+                           font-size: 20px;
+                       }
+                   }
+                   
+                   @media screen and (max-width:1150px) {
+                       #logo {
+                           width: 25%;
+                       }
+                       header #family-icon img {
+                           margin-top: -30px;
+                       }
+                       header #family-icon h1 {
+                           font-size: 45px;
+                           margin-bottom: 25px;
+                       }
+                       #family-icon img {
+                           height: 70px;
+                       }
+                   }
+                   
+                   @media screen and (max-width:1080px) {
+                       #logo {
+                           width: 25%;
+                       }
+                       header #family-icon h1 {
+                           font-size: 43px;
+                           margin-bottom: 15px;
+                       }
+                       header #family-icon h2 {
+                           font-size: 20px;
+                       }
+                   }
+                   
+                   @media screen and (max-width:1025px) {
+                       header #family-icon h1 {
+                           font-size: 40px;
+                       }
+                       header #family-icon h2 {
+                           font-size: 18px;
+                           margin-bottom: 15px;
+                       }
+                       #family-icon img {
+                           height: 60px;
+                       }
+                   }
+                   
+                   @media screen and (max-width:961px) {
+                       header #family-icon img {
+                           margin-top: -30px;
+                       }
+                       header #family-icon h1 {
+                           font-size: 37px;
+                       }
+                       header #family-icon h2 {
+                           font-size: 18px;
+                           margin-bottom: 25px;
+                       }
+                       #nav {
+                           display: none;
+                       }
+                       #btn {
+                           display: none;
+                       }
+                       #top {
+                           display: none;
+                       }
+                       #mobile_header {
+                           background-color: transparent;
+                           padding: 10px;
+                           text-decoration: none;
+                           position: fixed;
+                           width: 100%;
+                           z-index: 1;
+                           padding-left: 0;
+                           padding-right: 0;
+                       }
+                       #burger {
+                           float: right;
+                           margin-right: 20px;
+                           border: 1px solid #004ffc;
+                           border-radius: 3px 3px 3px 3px;
+                           cursor: pointer;
+                           display: block;
+                           height: 24px;
+                           padding: 3px 4px 3px;
+                           position: relative;
+                           width: 25px;
+                           background: #4569b2;
+                           filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#4569b2', endColorstr='#4062a5', GradientType=0)";
+                       }
+                       #burger div {
+                           background-color: #fff;
+                           border: 1px solid #eee;
+                           border-radius: 2px 2px 2px 2px;
+                           height: 2px;
+                           margin-top: 3px;
+                           width: 90%;
+                       }
+                       #mobile_nav {
+                           opacity: 0;
+                           right: 0px;
+                           top: 0px;
+                           position: fixed;
+                           z-index: 0;
+                           width: 70%;
+                           height: 100%;
+                           -webkit-box-sizing: border-box;
+                           -moz-box-sizing: border-box;
+                           box-sizing: border-box;
+                           overflow-x: hidden;
+                           overflow-y: auto;
+                           background: #081f3f;
+                       }
+                       #mobile_nav ul {
+                           margin: 0;
+                           width: 100%;
+                           padding: 0;
+                       }
+                       #contentLayer {
+                           display: none;
+                           height: 100%;
+                           overflow-x: hidden;
+                           overflow-y: auto;
+                           position: fixed;
+                           left: 0;
+                           top: 0;
+                           width: 30%;
+                           z-index: 5;
+                       }
+                       body {
+                           position: relative;
+                       }
+                       #top1 {
+                           background: #081f3f;
+                           color: #ffffff;
+                           font-family: 'museosans_300';
+                           font-size: 25px;
+                           list-style: none;
+                           text-decoration: none;
+                           display: block;
+                           margin-top: 20px;
+                           margin-left: 10px;
+                       }
+                       #top1 ul {
+                           list-style-type: none;
+                           margin: 0;
+                           padding: 0;
+                           list-style-type: none;
+                       }
+                       #top1 ul li {
+                           display: block;
+                           text-align: left;
+                           margin-left: 10px;
+                           margin-bottom: 20px;
+                       }
+                       #top1 ul li a {
+                           color: #ffffff;
+                           padding-bottom: 0;
+                           text-decoration: none;
+                       }
+                       #top1 ul li a:hover {
+                           color: #4f5c74;
+                       }
+                       #nav1 {
+                           font-size: 12px;
+                           font-family: 'museosans_700';
+                           width: 100%;
+                           display: inline-block;
+                           text-align: left;
+                           margin-left: 10px;
+                           margin-top: 20px;
+                       }
+                       #nav1 ul {
+                           margin: 0;
+                           padding: 0;
+                           list-style: none;
+                       }
+                       #nav1 ul li {
+                           float: left;
+                           font-size: 18px;
+                           display: inline-block;
+                           padding-left: 10px;
+                       }
+                       #nav1 ul li a {
+                           display: inline-block;
+                           line-height: 45px;
+                           color: #4f5c74;
+                           text-decoration: none;
+                       }
+                       #nav1 ul li a:visited {
+                           color: #4f5c74;
+                       }
+                       #nav1 ul li a:hover {
+                           background: #081f3f;
+                           color: #ffffff;
+                           border-bottom: 2px solid #0050ff;
+                       }
+                       #nav1 ul li a:active {
+                           background: #081f3f;
+                           border-bottom: 2px solid #0050ff;
+                       }
+                       .btnLogSign {
+                           background-color: #0050ff;
+                           color: white;
+                           text-decoration: none;
+                           font-size: 12px;
+                           border: 1px solid #0050ff;
+                           padding: 12px 20px 12px 20px;
+                           border-radius: 30px 0 0 30px;
+                           margin-right: 2px;
+                           font-family: 'museosans_700';
+                       }
+                       #log1 {
+                           border-radius: 30px 0 0 30px;
+                       }
+                       #sign1 {
+                           border-radius: 0 30px 30px 0;
+                       }
+                       #btn1 {
+                           font-size: 0;
+                           display: block !important;
+                       }
+                       #log1:hover,
+                       #sign2:hover {
+                           background-color: #0040cc;
+                           cursor: pointer;
+                       }
+                       #family-icon {
+                           width: 100%;
+                           margin: 0;
+                           position: absolute;
+                           top: 2% !important;
+                           color: #ffffff;
+                           font-family: 'Museo Sans';
+                           display: block !important;
+                       }
+                       #family-icon h1 {
+                           font-size: 60px;
+                           font-family: 'museosans_100';
+                           font-weight: 100;
+                           margin-bottom: 50px;
+                           margin-top: 30px;
+                       }
+                       #family-icon h2 {
+                           font-size: 22px;
+                           font-family: 'museosans_300';
+                           margin-right: auto;
+                           margin-left: auto;
+                           max-width: 525px;
+                           font-weight: 300;
+                       }
+                   }
+                   
+                   @media screen and (max-width: 870px) {
+                       header #family-icon {
+                           top: 27%;
+                       }
+                       header #family-icon img {
+                           margin-top: -50px;
+                       }
+                   }
+                   
+                   @media screen and (max-width: 770px) {
+                       header #family-icon h1 {
+                           font-size: 26px;
+                           margin-top: 8px;
+                       }
+                       header #family-icon h2 {
+                           font-size: 14px;
+                           margin-bottom: 25px;
+                       }
+                       header #family-icon img {
+                           margin-top: -50px;
+                       }
+                   }
+                   
+                   @media screen and (max-width:640px) {
+                       header #family-icon {
+                           position: relative;
+                           color: #081f3f;
+                       }
+                       header #family-icon h1 {
+                           font-size: 20px;
+                       }
+                   }

@@ -1,0 +1,399 @@
+    #features {
+        padding: 30px 0;
+        background-color: #f9f9f9;
+        margin: 0 0 30px 0;
+        width: 100%;
+        margin: 0;
+    }
+    
+    #features p {
+        color: #081f3f;
+        line-height: 30px;
+        font-family: 'museosans_300';
+        font-weight: 300;
+        font-size: 18px;
+    }
+    
+    #features .icons {
+        display: inline-block;
+        width: 22%;
+        padding-right: 20px;
+    }
+    
+    #tabs {
+        width: 100%;
+        background-color: #fbfbfb;
+        margin-top: 50px;
+    }
+    
+    #user_story {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 0;
+        background-color: #004ffb;
+        padding: 0;
+    }
+    
+    .color_block {
+        display: inline-block;
+    }
+    
+    #color_block1 {
+        background: #004ffb;
+        color: #ffffff;
+        vertical-align: top;
+        display: inline-block;
+        font-size: 0px;
+        width: 50%;
+    }
+    
+    * #color_block1 h2 {
+        font-family: "museosans_300";
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 169px;
+        margin-bottom: 25px;
+    }
+    
+    #color_block1 p {
+        font-family: 'museosans_100';
+        font-size: 50px;
+        font-weight: 100;
+        margin-bottom: 60px;
+    }
+    
+    #color_block2 {
+        margin: 0;
+        display: inline-block;
+        width: 50%;
+        padding: 0;
+    }
+    
+    #color_block2 img {
+        width: 100%;
+    }
+    
+    #notes {
+        font-size: 50px;
+        font-family: 'museosans_100';
+        font-weight: 100;
+        margin: 50px 0;
+        color: #081f3f;
+    }
+    
+    #accordion-container {
+        display: inline-block;
+        width: 80%;
+        margin: 0;
+        font-size: 18px;
+        font-weight: 300;
+        font-family: 'museosans_300';
+        background: #ffffff;
+        padding: 0;
+        border: 1px solid #cccccc;
+    }
+    
+    .accordion-header {
+        font-size: 18px;
+        font-family: 'museosans_300';
+        font-weight: 700;
+        background: #ffffff;
+        margin: 0;
+        padding: 14px 30px;
+        border: 1px solid #cccccc;
+        cursor: pointer;
+        color: #004ffb;
+        border-radius: 1px;
+    }
+    
+    .accordion-content {
+        display: none;
+        background: #ffffff;
+        width: 100% !important;
+    }
+    
+    .inactive-header:hover {
+        background: #f7faff;
+        background-repeat: no-repeat;
+        background-position: right 50%;
+    }
+    
+    //The accordion is closed
+    .accordion-closed:after {
+        float: right;
+        content: '\2039';
+        display: inline-block;
+        transform: rotate(90deg);
+        /* IE 9 */
+        -ms-transform: rotate(90deg);
+        /* Chrome, Safari, Opera */
+        -webkit-transform: rotate(90deg);
+        /* Firefox */
+        -moz-transform: rotate(90deg);
+        font-size: 30px;
+    }
+    
+    //The accordion is open
+    .accordion-open:after {
+        float: right;
+        content: "\2039";
+        display: inline-block;
+        transform: rotate(-90deg);
+        /* IE 9 */
+        -ms-transform: rotate(-90deg);
+        /* Chrome, Safari, Opera */
+        -webkit-transform: rotate(-90deg);
+        /* Firefox */
+        -moz-transform: rotate(-90deg);
+        font-size: 30px;
+    }
+    
+    .accordion-container .accordion-content {
+        border: none;
+    }
+    
+    .accordion-content p {
+        text-align: justify;
+        padding: 30px 40px 30px 80px;
+        color: #6e7583;
+    }
+    
+    .accordion-content li {
+        text-align: justify;
+        list-style-type: circle;
+        list-style-position: inside;
+        padding-left: 80px;
+        color: #081f3f;
+    }
+    
+    #promo_panel {
+        background-color: #f9f9f9;
+        font-size: 18px;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .mobile_panel {
+        display: none !important;
+    }
+    
+    .promo_panel_panel {
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .panel {
+        width: 270px;
+        display: inline-block;
+    }
+    
+    .side-panel img {
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
+    
+    .panel-green {
+        position: relative;
+        background: #2dc27a;
+        width: 420px;
+        vertical-align: top;
+        margin-left: 10px;
+    }
+    
+    .panel-green p {
+        display: inline-block;
+        width: 266px;
+        line-height: 30px;
+    }
+    
+    #scope {
+        margin-top: 70px;
+    }
+    
+    .scope_title {
+        margin: 42px 50px 50px 50px;
+        color: #ffffff;
+    }
+    
+    .scope_title p {
+        font-size: 18px;
+        font-family: 'museosans_300';
+        font-weight: 300;
+        margin: 0;
+    }
+    
+    .scope_title h2 {
+        font-family: 'museosans_100';
+        font-size: 30px;
+        font-weight: 100;
+    }
+    
+    @media screen and (max-width: 1400px) {
+        #user_story p {
+            font-size: 40px;
+        }
+        #user_story h2 {
+            margin-top: 120px;
+        }
+    }
+    
+    @media screen and (max-width: 1100px) {
+        #user_story p {
+            font-size: 30px;
+        }
+        #user_story h2 {
+            margin-top: 80px;
+        }
+    }
+    
+    @media screen and (max-width: 1025px) {
+        #features p {
+            font-size: 14px;
+        }
+        #features .icons {
+            width: 20%;
+        }
+        .promo_panel_panel {
+            display: flex;
+        }
+        .promo_panel_panel .side-panel img {
+            width: 100%;
+        }
+        .panel-green {
+            width: 40%;
+        }
+        .panel-green .scope_title {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    
+    @media screen and (max-width: 900px) {
+        #user_story p {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+        #user_story h2 {
+            font-size: 18px;
+        }
+        #read_users_story {
+            font-size: 14px;
+        }
+        .panel-green .scope_title {
+            margin-top: 30px;
+            margin-bottom: 40px;
+        }
+        .panel-green .scope_title p {
+            font-size: 16px;
+            line-height: 26px;
+        }
+        .panel-green .scope_title h2 {
+            font-size: 26px;
+        }
+    }
+    
+    @media screen and (max-width: 820px) {
+        #user_story h2 {
+            margin-top: 60px;
+            font-size: 16px;
+        }
+        #user_story p {
+            font-size: 21px;
+            margin-bottom: 40px;
+        }
+        #read_users_story {
+            font-size: 12px;
+            padding: 10px 18px 10px 18px;
+        }
+    }
+    
+    @media screen and (max-width: 750px) {
+        .promo_panel_panel {
+            width: 120%;
+            margin-left: -55px;
+        }
+    }
+    
+    @media screen and (max-width: 720px) {
+        #user_story h2 {
+            margin-top: 40px;
+        }
+    }
+    
+    @media screen and (max-width: 700px) {
+        .accordion-content p {
+            padding-left: 50px;
+        }
+        .accordion-content li {
+            padding-left: 50px;
+            padding-right: 30px;
+        }
+        .promo_panel_panel {
+            margin-left: -55px;
+        }
+    }
+    
+    @media screen and (max-width: 640px) {
+        #features .icons {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            min-height: 80px;
+        }
+        #features .icons img {
+            float: left;
+        }
+        #notes {
+            font-size: 22px;
+        }
+        .accordion-header {
+            font-size: 13px;
+            text-align: left;
+        }
+        .accordion-content p {
+            font-size: 13px;
+            text-align: center;
+            padding-left: 20px;
+        }
+        .accordion-content li {
+            font-size: 13px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        #color_block1 {
+            width: 100%;
+            padding-bottom: 40px;
+        }
+        #color_block2 {
+            display: block;
+            width: 100%;
+        }
+        .mobile_panel {
+            display: block !important;
+        }
+        .promo_panel_panel {
+            display: none;
+            width: 100%;
+            margin-left: 0;
+        }
+        .mobile_panel .panel-green {
+            margin-left: 0;
+            width: 90%;
+            margin-bottom: 25px;
+        }
+        .mobile_panel .panel {
+            width: 44%;
+        }
+        .mobile_panel .side-panel img {
+            width: 98%;
+        }
+    }
+    
+    @media screen and (max-width: 460px) {
+        #accordion-container {
+            width: 100%;
+        }
+        .accordion-header {
+            padding: 18px 30px;
+        }
+    }

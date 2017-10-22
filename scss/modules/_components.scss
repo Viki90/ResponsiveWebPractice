@@ -1,0 +1,1021 @@
+            #main {
+                padding: 0;
+                margin: 0 auto;
+                width: 100%;
+                background: white;
+                color: black;
+                float: left;
+                overflow: hidden;
+            }
+            
+            #header-img img {
+                width: 100%;
+            }
+            
+            #family-blue img {
+                display: none;
+            }
+            
+            #family-icon {
+                width: 100%;
+                margin: 0;
+                position: absolute;
+                top: 29%;
+                color: #ffffff;
+                font-family: 'Museo Sans';
+            }
+            
+            #family-icon h1 {
+                font-size: 60px;
+                font-family: 'museosans_100';
+                font-weight: 100;
+                margin-bottom: 50px;
+                margin-top: 30px;
+            }
+            
+            #family-icon h2 {
+                font-size: 22px;
+                font-family: 'museosans_300';
+                margin-right: auto;
+                margin-left: auto;
+                max-width: 525px;
+                font-weight: 300;
+            }
+            
+            #tab-header-wrapper {
+                text-align: center;
+                list-style: none;
+                padding: 0;
+                line-height: 96px;
+                height: 101px;
+                font-size: 26px;
+                position: relative;
+                width: 100%;
+                border-bottom: 1px solid #ccc;
+            }
+            
+            #tabs #tab-header-wrapper li {
+                border: 1px solid #d8d8d8;
+                background: #D1D1D1;
+                background: #f6f6f6;
+                display: inline-block;
+                position: relative;
+                z-index: 0;
+                border-top-left-radius: 6px;
+                border-top-right-radius: 6px;
+                height: 100px;
+                width: 40%;
+                text-align: center;
+            }
+            
+            #tabs a {
+                color: #9ea2aa;
+                text-decoration: none;
+                float: none;
+                display: block;
+                font-family: 'museosans_300';
+                font-weight: 300;
+            }
+            
+            #tabs #tab-header-wrapper li.selected {
+                background: #ffffff;
+                border-bottom: 1px solid #FFF;
+            }
+            
+            #tabs #tab-header-wrapper li.selected a {
+                color: #0050ff;
+            }
+            
+            #tabs #tab-header-wrapper ul li:hover {
+                background: #fff !important;
+            }
+            
+            #tab1 {
+                margin: 0px auto;
+                width: 100%;
+            }
+            
+            #price_table li {
+                border-collapse: collapse;
+                border-style: hidden;
+                background: #ffffff;
+                display: inline-block;
+                position: relative;
+                width: 100%;
+                text-align: center;
+                height: 90px;
+            }
+            
+            #price_table {
+                margin-top: 80px;
+                margin-bottom: 40px;
+                color: #081f3f;
+                text-align: center;
+                display: inline-block;
+            }
+            
+            #price_table .pack-title span {
+                font-size: 18px;
+                font-weight: 700;
+                background: #0050ff !important;
+                color: #ffffff;
+            }
+            
+            #price_table .price {
+                font-family: 'museosans_100';
+                font-size: 60px;
+                font-weight: 100;
+                color: #0050ff;
+                background: #ffffff;
+                margin: 30px 0px 20px 0px;
+            }
+            
+            #price_table .time {
+                font-family: 'museosans_700';
+                font-size: 16px;
+                font-weight: 700;
+                color: #081f3f;
+            }
+            
+            #price_table .column_1 .header_row_1 {
+                width: 100%;
+                padding: 10px 0px 10px 0px;
+                border-radius: 10px 10px 0 0;
+            }
+            
+            #price_table .column_1 .header_row_2 {
+                height: 132px;
+                width: 100%;
+                padding: 5px 0;
+                background: #ffffff;
+            }
+            
+            #price_table .column_1 {
+                width: 28%;
+                vertical-align: top;
+                padding-bottom: 60px;
+                background-color: white;
+                -webkit-transform: translate(0px, 0px);
+                -moz-transform: translate(0px, 0px);
+                -o-transform: translate(0px, 0px);
+                -ms-transform: translate(0px, 0px);
+                transform: translate(0px, 0px);
+                -webkit-transition: all 0.2s ease-in-out;
+                -moz-transition: all 0.2s ease-in-out;
+                -o-transition: all 0.2s ease-in-out;
+                -ms-transition: all 0.2s ease-in-out;
+                transition: all 0.2s ease-in-out;
+                display: inline-block;
+                border-radius: 10px;
+                -webkit-box-shadow: 0px 0px 173px 33px rgba(0, 0, 0, 0.12);
+                -moz-box-shadow: 0px 0px 173px 33px rgba(0, 0, 0, 0.12);
+                box-shadow: 0px 0px 173px 33px rgba(0, 0, 0, 0.12);
+            }
+            
+            #price_table .column_1:hover {
+                position: relative;
+                z-index: 100;
+                -webkit-transform: translate(-5px, -15px);
+                -moz-transform: translate(-5px, -15px);
+                -o-transform: translate(-5px, -15px);
+                -ms-transform: translate(-5px, -15px);
+                transform: translate(-5px, -15px);
+                -webkit-transition-delay: 0s;
+                -moz-transition-delay: 0s;
+                -o-transition-delay: 0s;
+                -ms-transition-delay: 0s;
+                transition-delay: 0s;
+                -webkit-box-shadow: 0px 0px 173px 33px rgba(0, 0, 0, 0.12);
+                -moz-box-shadow: 0px 0px 173px 33px rgba(0, 0, 0, 0.12);
+                box-shadow: 0px 0px 173px 33px rgba(0, 0, 0, 0.12);
+            }
+            
+            #price_table .column_1:nth-child(2) .price {
+                color: #2dc27a;
+            }
+            
+            #price_table .row_style_1,
+            #price_table .row_style_2 {
+                width: 100%;
+                height: 40px;
+                padding-top: 9px;
+            }
+            
+            #price_table .row_style_2,
+            #price_table .row_style_1 {
+                padding-left: 50px;
+                box-sizing: border-box;
+            }
+            
+            #price_table .row_style_1 span,
+            #price_table .row_style_2 span {
+                position: relative;
+                font-size: 16px;
+                font-weight: 300;
+            }
+            
+            #price_table .row_style_1 span,
+            #price_table .row_style_2 span {
+                position: relative;
+                font-size: 16px;
+                font-weight: 300;
+            }
+            
+            #price_table .row_style_1 span:before,
+            #price_table .row_style_2 span:before {
+                width: 24px;
+                height: 24px;
+                left: -30px;
+                position: absolute;
+                top: -3px;
+                content: "";
+            }
+            
+            #price_table .no-option span:before {
+                width: 24px;
+                height: 24px;
+                left: -30px;
+                position: -30px;
+                position: absolute;
+                top: -3px;
+                content: "";
+            }
+            
+            #price_table .header_row_1 {
+                background: #0050ff;
+                color: #ffffff;
+            }
+            
+            #green {
+                background: #2dc27a !important;
+            }
+            
+            .check-green {
+                color: #2dc27a;
+                margin-right: 25px;
+            }
+            
+            .uncheck-grey {
+                color: #a4a8b0;
+                margin-right: 25px;
+            }
+            
+            .row_style_2,
+            .row_style_1 {
+                text-align: left !important;
+                vertical-align: middle;
+            }
+            
+            #per-month {
+                width: 50px;
+                display: inline-block;
+                line-height: 12px;
+                height: 50px;
+            }
+            
+            .per-month {
+                font-size: 16px;
+            }
+            
+            .center {
+                vertical-align: middle;
+                text-align: center;
+            }
+            
+            .pack-title.center {
+                margin-top: 36px;
+                font-family: 'museosans_700';
+                font-weight: 700;
+            }
+            
+            .smooth {
+                color: #d7dae0;
+            }
+            
+            #posts_mobile {
+                display: none;
+            }
+            
+            #posts {
+                width: 100%;
+                margin: 0 auto;
+                text-align: center;
+            }
+            
+            #post2 .post-image {
+                margin-right: 12%;
+            }
+            
+            #main #posts .post-right p {
+                width: 100%;
+            }
+            
+            #posts .btn_bottom {
+                padding-left: 0;
+            }
+            
+            #post2 .post {
+                width: 45%;
+            }
+            
+            .post {
+                width: 60%;
+                display: inline-block;
+                padding: 35px 35px 15px;
+                margin-top: 100px;
+                background: #ffffff;
+                position: relative;
+                text-align: left;
+                color: black;
+                padding-left: 0;
+            }
+            
+            .post h2 {
+                font-family: 'museosans_100';
+                font-size: 50px;
+                font-weight: 100;
+                margin-bottom: 60px;
+            }
+            
+            .post p {
+                font-family: 'museosans_300';
+                font-size: 18px;
+                font-weight: 300;
+                width: 80%;
+                padding-left: 0;
+            }
+            
+            .post-image {
+                display: inline-block;
+                width: 30%;
+            }
+            
+            #posts #post1,
+            #posts #post2,
+            #posts #post3 {
+                width: 85%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            #posts .post-image img {
+                width: 100%;
+                max-width: 400px;
+                min-width: 320px;
+            }
+            
+            #forms {
+                width: 100%;
+                margin: 0 auto;
+                background: #f7f7f7;
+                padding: 70px 0;
+            }
+            
+            #forms h2 {
+                color: #081f3f;
+                font-family: 'museosans_100';
+                font-size: 50px;
+                font-weight: 100;
+                margin: 30px 0 80px 0;
+            }
+            
+            #form_form {
+                width: 80%;
+                max-width: 1160px;
+                margin: 0 auto;
+                display: flex;
+                text-align: center;
+                position: relative;
+            }
+            
+            #form {
+                padding: 30px 0 0 30px;
+                text-align: left;
+            }
+            
+            .space {
+                padding-bottom: 20px;
+                font-family: 'muosans_700';
+            }
+            
+            #contact_form .space_grey {
+                color: #9f9f9f;
+                font-size: 16px;
+                font-weight: 300;
+                font-family: 'museosans_300';
+            }
+            
+            #no_grey {
+                color: #081f3f;
+            }
+            
+            #contact_form {
+                width: 65%;
+                margin: 0 auto;
+                // padding: 35px 35px 15px;
+                background: #ffffff;
+                position: relative;
+                float: left;
+                padding-top: 80px;
+            }
+            
+            #form-contact {
+                margin-left: 70px;
+            }
+            
+            #form-contact input,
+            textarea {
+                border: 2px solid #e4e3e3;
+                padding: 10px;
+                box-sizing: border-box;
+                border-radius: 5px;
+                margin-top: 10px;
+                font-size: 18px;
+                font-family: "museosans_300";
+                color: #9f9f9f;
+                font-weight: 300;
+            }
+            
+            textarea {
+                height: 200px;
+            }
+            
+            .checkBox input {
+                border-color: #9f9f9f;
+            }
+            
+            label.space_grey {
+                padding-top: 10px;
+            }
+            
+            #form-contact input[type="email"],
+            #form-contact textarea {
+                width: 90%;
+            }
+            
+            #form-contact input[type="text"],
+            #form-contact input[type="number"] {
+                width: 45%;
+            }
+            
+            #form-contact label {
+                font-family: 'museosans_700';
+                font-size: 18px;
+                font-weight: 700;
+                color: #081f3f;
+            }
+            
+            #form-contact .space:first-child {
+                margin-right: 20px;
+            }
+            
+            #form-contact .space:first-child,
+            #form-contact .space:nth-child(2) {
+                display: inline-block;
+                max-width: 280px;
+                width: 45%;
+            }
+            
+            #form-contact .space:first-child input,
+            #form-contact .space:nth-child(2) input {
+                width: 100% !important;
+            }
+            
+            #error {
+                background: #fc6666;
+                height: 70px;
+                color: #ffffff;
+                font-family: 'museosans_500';
+                font-size: 17px;
+                font-weight: 500;
+            }
+            
+            #error p {
+                padding-top: 24px;
+            }
+            
+            #name_card {
+                width: 35%;
+                background: #004ffb;
+                position: relative;
+                float: right;
+                padding-bottom: 35px;
+                padding-top: 80px;
+            }
+            
+            #need_more h2 {
+                font-family: 'museosans_100';
+                font-size: 30px;
+                font-weight: 100;
+                color: #ffffff;
+                margin-bottom: 40px;
+                margin-top: 0;
+            }
+            
+            #need_more p {
+                font-family: 'museosans_300';
+                font-size: 18px;
+                font-weight: 300;
+                color: #ffffff;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 50px;
+                width: 80%;
+            }
+            
+            #cto {
+                background: #ffffff;
+                text-align: center;
+                border-radius: 5px;
+                margin: 30px;
+            }
+            
+            #cto h2 {
+                font-family: 'museosans_300';
+                font-size: 26px;
+                font-weight: 300;
+                color: black;
+                padding-top: 20px;
+                margin-bottom: 0;
+            }
+            
+            #cto h3 {
+                font-family: 'museosans_300';
+                font-size: 18px;
+                font-weight: 300;
+                color: black;
+                padding: 0;
+                margin-top: 0px;
+                margin-bottom: 15px;
+            }
+            
+            #cto img {
+                margin-bottom: 40px;
+            }
+            
+            #cto p {
+                font-family: 'museosans_300';
+                font-size: 18px;
+                font-weight: 300px;
+                color: #004ffb;
+            }
+            
+            #cto_bottom {
+                padding-bottom: 50px;
+                font-size: 16px;
+            }
+            
+            #exclamation {
+                border: 1px solid #ccc;
+                padding: 5px 10px;
+                border-radius: 50%;
+            }
+            
+            @media screen and (max-width: 1400px) {
+                #posts .post-left {
+                    margin-right: 0;
+                    //width: 60%;
+                }
+                #posts .post-right {
+                    margin-left: 0;
+                }
+            }
+            
+            @media screen and (max-width: 1250px) {
+                #price_table .column_1:last-child {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 20px;
+                }
+                #price_table .column_1 {
+                    width: 35%;
+                }
+                .post h2 {
+                    margin-bottom: 30px;
+                }
+                .post p {
+                    margin-bottom: 20px;
+                }
+                #posts .post-left {
+                    margin-right: 0;
+                    width: 50%;
+                }
+                #posts .post-right {
+                    margin-left: 0;
+                }
+                #cto_bottom {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+                #cto p {
+                    font-size: 16px;
+                }
+                #send_message {
+                    margin-left: 109px;
+                    margin-bottom: 20px;
+                }
+            }
+            
+            @media screen and (max-width: 1100px) {
+                .post h2 {
+                    font-size: 35px;
+                    margin-bottom: 30px;
+                }
+                .post p {
+                    font-size: 16px;
+                    margin-bottom: 10px;
+                }
+                #posts .post-left {
+                    margin-right: 0;
+                    // width: 50%;
+                }
+                #posts .post-right {
+                    margin-left: 0;
+                    //width: 50%
+                }
+                #send_message {
+                    margin-left: 60px;
+                    margin-bottom: 20px;
+                }
+            }
+            
+            @media screen and (max-width: 1025px) {
+                #price_table .column_1 {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 20px;
+                    width: 50%;
+                }
+                .post h2 {
+                    font-size: 35px;
+                    margin-bottom: 20px;
+                }
+                .post p {
+                    font-size: 16px;
+                    width: 100%;
+                }
+                #posts .post-left {
+                    margin-right: 0;
+                    // width: 50%;
+                }
+                #posts .post-right {
+                    margin-left: 40px;
+                    //width: 50%
+                }
+                #form_form {
+                    width: 90%;
+                }
+                .checkBox input {
+                    width: 25px;
+                    height: 25px;
+                }
+                #forms h2 {
+                    margin: 30px 0 40px 0;
+                    font-size: 40px;
+                }
+                #posts #post1,
+                #posts #post2,
+                #posts #post3 {
+                    margin-left: 0;
+                    width: 100%;
+                }
+            }
+            
+            @media screen and (max-width: 900px) {
+                #price_table .column_1 {
+                    width: 60%;
+                }
+                #tab-header-wrapper {
+                    height: 80px;
+                    line-height: 80px;
+                }
+                #tabs #tab-header-wrapper ul li {
+                    height: 80px;
+                }
+                #tab-header-wrapper ul li a {
+                    font-size: 24px;
+                }
+                .post h2 {
+                    font-size: 30px;
+                    margin-bottom: 20px;
+                }
+                .post p {
+                    font-size: 16px;
+                }
+                #posts .post-left {
+                    margin-right: 0;
+                    width: 50%;
+                }
+                #posts .post-right {
+                    margin-left: 0;
+                }
+                #posts .post-image img {
+                    width: 100%;
+                    max-width: 300px;
+                    min-width: 180px;
+                }
+                #form-contact label {
+                    font-size: 16px;
+                }
+            }
+            
+            @media screen and (max-width: 800px) {
+                #tab-header-wrapper ul li a {
+                    font-size: 21px;
+                }
+                .post h2 {
+                    font-size: 25px;
+                    margin-bottom: 20px;
+                }
+                .post p {
+                    font-size: 16px;
+                    padding: 0;
+                    margin: 0;
+                }
+                #posts .post-left {
+                    margin-right: 0;
+                }
+                #posts .post-right {
+                    margin-left: 0;
+                }
+                #forms {
+                    padding: 30px 0;
+                }
+                #form {
+                    padding: 0;
+                }
+                #form-contact label {
+                    font-size: 16px;
+                }
+                #form-contact input,
+                textarea {
+                    padding: 5px;
+                    margin-top: 5px
+                }
+                textarea {
+                    height: 120px;
+                }
+                .checkBox input {
+                    width: 20px;
+                    height: 20px;
+                }
+                #send_message {
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+                }
+                #name_card {
+                    padding-bottom: 0;
+                    padding-top: 10px;
+                }
+                #forms h2 {
+                    font-size: 20px;
+                }
+                #need_more p {
+                    font-size: 16px;
+                    margin-bottom: 40px;
+                }
+                #cto {
+                    margin: 25px;
+                }
+                #cto h2 {
+                    font-size: 12px;
+                    padding-top: 15px;
+                    margin: 0;
+                }
+                #cto h3 {
+                    font-size: 14px;
+                    margin-bottom: 10px;
+                }
+                #cto img {
+                    margin-bottom: 20px;
+                }
+                #cto p {
+                    font-size: 12px;
+                }
+                #cto_bottom {
+                    padding-bottom: 30px;
+                }
+                #cto_bottom p {
+                    font-size: 12px;
+                }
+                #error {
+                    height: 60px;
+                    font-size: 14px;
+                }
+            }
+            
+            @media screen and (max-width: 700px) {
+                #price_table .column_1 {
+                    width: 70%;
+                }
+                #tab-header-wrapper {
+                    height: 70px;
+                    line-height: 70px;
+                }
+                #tabs #tab-header-wrapper ul li {
+                    height: 68px;
+                }
+                #tab-header-wrapper ul li a {
+                    font-size: 20px;
+                }
+                .post h2 {
+                    font-size: 20px;
+                    margin-bottom: 10px;
+                }
+                .post p {
+                    font-size: 15px;
+                    margin: 0;
+                    padding: 0;
+                }
+                #posts .post-left {
+                    margin-right: 0;
+                }
+                #posts .post-right {
+                    margin-left: 0;
+                }
+                #forms {
+                    margin: 0 auto;
+                    padding: 70px 0;
+                }
+                #form_form {
+                    width: 100%;
+                    margin: 0 auto;
+                    display: block;
+                    float: left;
+                    background: #f7f7f7;
+                }
+                #contact_form {
+                    width: 90%;
+                    padding-top: 80px;
+                    margin-right: auto;
+                    margin-left: auto;
+                    float: none;
+                    padding-bottom: 35px;
+                }
+                #send_message {
+                    margin-left: 75px;
+                }
+                #error {
+                    display: none;
+                }
+                #name_card {
+                    width: 90%;
+                    height: 410px;
+                    margin-right: auto;
+                    margin-left: auto;
+                    padding-bottom: 35px;
+                    float: none;
+                    margin-bottom: 70px;
+                }
+                #cto {
+                    width: 390px;
+                    margin-right: auto;
+                    margin-left: auto;
+                }
+            }
+            
+            @media screen and (max-width:640px) {
+                #posts_mobile {
+                    display: block !important;
+                    margin-top: 60px;
+                }
+                #posts {
+                    display: none !important;
+                }
+                .post-image {
+                    display: block;
+                    margin-right: auto;
+                    width: 80%;
+                    margin-left: auto;
+                    margin-top: 50px;
+                }
+                .post-image img {
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                    min-width: 180px;
+                    max-width: 400px;
+                    width: 100%;
+                }
+                #posts_mobile h2 {
+                    font-size: 23px;
+                    font-weight: 100;
+                    font-family: 'museosans_100';
+                }
+                .post {
+                    margin-top: 0;
+                    width: 80%;
+                    text-align: center;
+                    padding-right: 0;
+                }
+                header #family-icon img {
+                    display: none;
+                }
+                header #family-blue img {
+                    display: block !important;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 20px;
+                }
+            }
+            
+            @media screen and (max-width: 515px) {
+                #price_table .column_1 {
+                    width: 90%;
+                }
+            }
+            
+            @media screen and (max-width: 480px) {
+                #contact_form {
+                    width: 100%;
+                    background: transparent;
+                    padding-top: 0;
+                }
+                #form-contact .space:first-child,
+                #form-contact .space:nth-child(2) {
+                    display: block;
+                    width: 90%;
+                    max-width: none;
+                }
+                #form-contact {
+                    margin-left: 20px;
+                }
+                #form-contact label {
+                    font-size: 13px;
+                }
+                #contact_form .space_grey {
+                    font-size: 13px;
+                }
+                .checkBox input {
+                    width: 15px;
+                    height: 15px;
+                }
+                #forms {
+                    padding: 0;
+                }
+                #forms h2 {
+                    margin: 0;
+                    padding-top: 35px;
+                    padding-bottom: 20px;
+                }
+                #name_card {
+                    width: 100%;
+                    margin-bottom: 0;
+                }
+                #cto {
+                    width: 90%;
+                }
+                #cto img {
+                    width: 50px;
+                }
+                .btn_bottom {
+                    text-align: center;
+                }
+                #send_message {
+                    margin-left: 0;
+                }
+            }
+            
+            @media screen and (max-width: 380px) {
+                #price_table .row_style_2,
+                #price_table .row_style_1 {
+                    padding-left: 20px;
+                }
+                #price_table .row_style_2 span,
+                #price_table .row_style_1 span {
+                    font-size: 13px;
+                }
+                #price_table .row_style_2 .price>span,
+                #price_table .row_style_1 .price>span {
+                    font-size: 48px;
+                }
+                #price_table .time {
+                    font-size: 13px;
+                    margin-bottom: 20px;
+                }
+                #price_table .column_1 .header_row_1 {
+                    height: 45px;
+                }
+                #price_table .column_1 .header_row_1 .price,
+                #price_table .column_1 .header_row_2 .price {
+                    margin-bottom: 0;
+                }
+                .pack-title.center {
+                    margin-top: 15px;
+                }
+                #tab-header-wrapper ul li a {
+                    font-size: 14px;
+                }
+                #tabs #tab-header-wrapper ul li {
+                    height: 36px;
+                }
+                #tab-header-wrapper {
+                    height: 40px;
+                    line-height: 40px;
+                }
+                #tab-header-wrapper {
+                    line-height: 36px;
+                }
+            }

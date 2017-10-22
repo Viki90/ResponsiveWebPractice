@@ -1,0 +1,234 @@
+footer {
+    clear: both;
+}
+
+#bottom_nav #second-nav ul {
+    font-size: 0;
+    display: flex;
+}
+
+#bottom_nav #second-nav li {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #004ffb;
+}
+
+#bottom_nav #second-nav li a {
+    float: none;
+    display: block;
+    font-family: 'museosans_100';
+    font-weight: 100;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+#bottom_nav #second-nav li:hover {
+    background-color: #0040cc;
+}
+
+#bottom_nav span {
+    font-size: 30px;
+}
+
+.home-next {
+    border-left: 2px solid #0037af;
+}
+
+#middle-footer {
+    width: 100%;
+    padding-top: 50px;
+    background: #ffffff;
+}
+
+.middle_center {
+    width: 18%;
+    vertical-align: top;
+    text-align: right;
+    display: inline-block;
+}
+
+#logo_footer {
+    float: left;
+}
+
+#middle-footer .middle_center ul {
+    list-style-type: none;
+    width: 120px;
+    vertical-align: top;
+}
+
+#middle-footer .middle_center li {
+    text-align: left;
+    float: left;
+    display: block;
+    width: 100%;
+    font-family: 'museosans_500';
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 23px;
+}
+
+#middle-footer .middle_center ul a {
+    display: block;
+    text-decoration: none;
+    float: left;
+    color: #2267ff;
+}
+
+.footer-grey {
+    color: #838f9f;
+    font-family: 'museosans_500';
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.footer-blue {
+    list-style-type: square;
+    list-style-position: outside;
+}
+
+#middle-footer .middle_center .footer-blue a {
+    color: #081f3f;
+    display: list-item;
+    list-style-type: circle;
+    list-style-position: outside;
+}
+
+#middle-footer-wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bottom_footer {
+    width: 100%;
+    height: 80px;
+    margin-top: 70px;
+    background: #f7f7f7;
+    display: inline-block;
+}
+
+#footer-end {
+    width: 85%;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+#terms_privacy {
+    float: left;
+}
+
+#terms_privacy span {
+    color: #8a94a2;
+}
+
+#terms_privacy li {
+    float: left;
+    list-style-type: none;
+}
+
+#terms_privacy a {
+    font-family: 'Myriad Pro', 'Segoe UI', 'sans-serif';
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#social_icon {
+    float: right;
+}
+
+#social_icon li {
+    margin-right: 10px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+@media screen and (max-width: 960px) {
+    #middle-footer-wrapper #column1 {
+        display: none;
+    }
+    #logo_footer {
+        display: none;
+    }
+    .middle_center {
+        width: 30%;
+    }
+    #column4 #my_home_btn {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #bottom_nav #second-nav li {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #bottom_nav #second-nav li a {
+        font-size: 26px;
+    }
+    #middle-footer .middle_center li {
+        font-size: 12px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #my_home_btn {
+        display: none;
+    }
+    #logo_footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #second-nav ul li:nth-child(2) {
+        display: none !important;
+    }
+    #bottom_nav #second-nav ul li {
+        width: 50%;
+    }
+    #column4 {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .img_float {
+        display: inline-block;
+    }
+    .middle_center {
+        width: 45%;
+    }
+    #bottom_nav #second-nav li a {
+        font-size: 16px;
+    }
+    .footer-grey {
+        padding-bottom: 0;
+    }
+    .img_float img {
+        width: 100%;
+    }
+    .img_float {
+        width: 48%;
+    }
+    #middle-footer .middle_center .footer-blue a {
+        list-style-type: none;
+        color: #0050ff;
+    }
+    #middle-footer {
+        color: #f8f8f8;
+    }
+    #terms_privacy a {
+        font-size: 11px;
+    }
+    #terms_privacy span {
+        font-size: 11px;
+    }
+}

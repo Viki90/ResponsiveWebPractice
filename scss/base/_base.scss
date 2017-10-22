@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'museosans_500';
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: "museosans_100";
+    src: url("../fonts/museosans_100-webfont.ttf");
+}
+
+@font-face {
+    font-family: "museosans_300";
+    src: url("../fonts/museosans_300-webfont.ttf");
+}
+
+@font-face {
+    font-family: "museosans_500";
+    src: url("../fonts/museosans_500-webfont.ttf");
+}
+
+@font-face {
+    font-family: "museosans_700";
+    src: url("../fonts/museosans_700-webfont.ttf");
+}
+
+@font-face {
+    font-family: "museosans_900";
+    src: url("../fonts/museosans_900-webfont.ttf");
+}
